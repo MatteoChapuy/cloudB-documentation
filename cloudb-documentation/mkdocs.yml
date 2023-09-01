@@ -3,7 +3,7 @@ nav:
   - 'index.md'
   - 'introduction.md'
   - 'getting-started.md'
-  - 'workspace.md'
+  - 'workspaces.md'
   - 'troubleshooting.md'
 theme:
   name: readthedocs
