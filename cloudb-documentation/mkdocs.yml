@@ -1,0 +1,9 @@
+site_name: CloudB Documentation
+nav:
+  - 'index.md'
+  - 'introduction.md'
+  - 'getting-started.md'
+  - 'workspace.md'
+  - 'troubleshooting.md'
+theme:
+  name: readthedocs
