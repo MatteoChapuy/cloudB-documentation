@@ -1,6 +1,6 @@
 # [Workspaces](workspaces.md)
 
-# Eolyse
+## Eolyse
 
 ### Introduction to Eolyse
 
@@ -23,21 +23,21 @@ Eolyse is a dedicated workspace within CloudB aimed at assessing the noise impac
 Eolyse aims to be the go-to workspace for engineers looking to delve deep into the intricacies of noise impact due to wind farms, providing both advanced tools and user-friendly interfaces.
 
 
-## Starting with Eolyse
+### Starting with Eolyse
 
 Starting your journey with Eolyse is straightforward, but there are several key points to keep in mind to make the most of this specialized workspace.
 
-### Access to Eolyse
+#### Access to Eolyse
 
 If you find that you're unable to access the Eolyse workspace, it may be due to restricted access permissions. Please reach out to an administrator to request access. Access to workspaces like Eolyse is not automatically granted upon account creation.
 
-### Navigating the Workspace
+#### Navigating the Workspace
 
 1. **Eolyse Projects**: Upon entering the Eolyse workspace, you'll find a section labeled "Eolyse Projects." Click this to access your list of projects or to create a new one.
    
 2. **Wind Turbine Library**: You can also directly access the "Wind Turbine Library" from the workspace homepage.
 
-### Project Management
+#### Project Management
 
 1. **Searching for Projects**: Use the top search bar on the projects page to find projects by their names.
 
@@ -51,11 +51,11 @@ If you find that you're unable to access the Eolyse workspace, it may be due to 
 
 Starting with Eolyse should now be easier. The workspace is designed to offer you all the tools you'll need to manage your projects related to wind farm noise analysis efficiently.
 
-## Wind Turbine Library
+### Wind Turbine Library
 
 The Wind Turbine Library is a rich repository of detailed information regarding wind turbines, specifically focusing on their electrical power production and acoustic power levels. This library has been painstakingly built by Delhom Acoustique, collating and organizing data from various manufacturers into a comprehensive, standardized database.
 
-### Accessing the Library
+#### Accessing the Library
 
 - **Internal Users**: Full access to the Wind Turbine Library is provided to internal users.
   
@@ -63,7 +63,7 @@ The Wind Turbine Library is a rich repository of detailed information regarding 
 
 You can access the Wind Turbine Library by clicking the button labeled "Wind Turbine Library" found under "Eolyse Projects."
 
-### Using the Library
+#### Using the Library
 
 1. **Library List**: On entering the library, you are greeted by a list that represents the current state of the library.
 
@@ -82,19 +82,19 @@ Model Nominal_Power Serration Hub_Height Data_Sheet_Year_Of_Release
 
 7. **Acoustic Power Spectrum**: The library also provides a data representation of the acoustic power spectrum for each operating mode, offering insights into the spectral distribution of noise generated. Spectrum data are gather on the 1/3 octave frequency band from 50Hz to 10 KHz.
 
-### Adding Custom Models
+#### Adding Custom Models
 
 To add your own custom models, click the "+" button at the top right corner of the library page. A form will pop up to guide you through the process of creating a new custom model.
 
-### Maintenance by Delhom Acoustique
+#### Maintenance by Delhom Acoustique
 
 The Wind Turbine Library is actively maintained by Delhom Acoustique. This enables us to be highly agile in updating and fixing data, as we have direct access to the database.
 
-## Simulation Review
+### Simulation Review
 
 Creating and managing simulations are essential tasks within Eolyse. This section will guide you through the simulation creation and management process.
 
-### Creating the First Simulation
+#### Creating the First Simulation
 
 When a new project is created, the first task is to create a simulation:
 
@@ -102,11 +102,11 @@ When a new project is created, the first task is to create a simulation:
 2. Select "Create Simulation" from the dropdown.
 3. **Important**: Please make sure to only use UTF-8 characters in the simulation name, as the system is sensitive to special characters.
 
-### Accessing Modeling
+#### Accessing Modeling
 
 Once a simulation has been created, you'll be granted access to the modeling section for further project development.
 
-### Managing Simulations
+#### Managing Simulations
 
 1. **Renaming**: You can rename a simulation by selecting "Rename Simulation" from the "Simulation" dropdown menu.
   
@@ -120,11 +120,11 @@ Once a simulation has been created, you'll be granted access to the modeling sec
 
 6. **Simulation Creation Limitation**: For now, their is no limitation on the number of simulation an user can create in the same project.
 
-## Modeling
+### Modeling
 
 The Modeling section is where you'll create point sources and receiver points. These points will be used for calculations in the different applications within Eolyse.
 
-### Adding a Point Source
+#### Adding a Point Source
 
 1. Click the "Add Source" button.
 2. A form will appear where you'll need to fill out the following fields:
@@ -134,7 +134,7 @@ The Modeling section is where you'll create point sources and receiver points. T
     - **Model Source**: Choose a wind turbine model from the list. Custom models created in the library will also appear here.
 3. **Important**: All fields must be filled in order to create the point.
 
-### Adding a Receiver Point
+#### Adding a Receiver Point
 
 1. Click the "Add Receiver" button.
 2. Similar to adding a source, a form will appear requiring:
@@ -142,14 +142,14 @@ The Modeling section is where you'll create point sources and receiver points. T
     - **Color Group**
     - **Coordinates in WGS84**
 
-### Bulk Import of Points
+#### Bulk Import of Points
 
 To speed up the process, points can be bulk-imported via CSV:
   
 1. Select "Import Modeling Points" from the dropdown menu.
 2. Follow the guided steps to create multiple points at once.
 
-### Managing Points
+#### Managing Points
 
 1. **Viewing Point Information**: After creation, point details can be accessed from an accordion menu. Note that point elevation (in meters) is automatically calculated using Google Maps Elevation API.
   
@@ -157,21 +157,21 @@ To speed up the process, points can be bulk-imported via CSV:
 
 3. **Exporting Points**: Point data can be exported to a CSV file by choosing "Export Modeling Points" from the "Simulation" dropdown menu.
 
-### Important Considerations
+#### Important Considerations
 
 1. **Point IDs**: The name of a point is tied to its ID and cannot be modified after creation. If a name change is needed, you must create a new point.
   
 2. **Reusability**: Points created in this section are used in all calculation applications within the simulation. To use a different configuration, you must create a new simulation.
 
-## Noise Propagation Models
+### Noise Propagation Models
 
 Eolyse currently operates on a specialized acoustic propagation model known as Acventum, developed by Delhom Acoustique.
 
-### Overview
+#### Overview
 
 Acventum is designed to simulate long-range acoustic propagation. It is inspired by the research that led to the development of MGCD and is adapted to serve as an engineering model, akin to ISO9613 and the Harmonoise "point-to-point" models developed by CSTB.
 
-### Acoustic Phenomena Considered
+#### Acoustic Phenomena Considered
 
 The model accounts for various forms of acoustic decay phenomena during sound propagation, including:
 
@@ -181,63 +181,62 @@ The model accounts for various forms of acoustic decay phenomena during sound pr
 - Attenuation due to Topography
 - Atmospheric Refraction affecting the curvature of sound rays
 
-### Distinctive Advantages
+#### Distinctive Advantages
 
 One of the unique advantages of using Acventum is its specific suitability for acoustic calculations within the wind energy sector. It facilitates the assessment of noise impacts for standard wind speed classes, ranging from 3 m/s to 12 m/s.
 
-### Validation
+#### Validation
 
 The model has undergone validation against the Harmonoise model under various conditions of sound propagation. It provides an accurate account of the curvature of sound rays, an important factor in long-distance acoustic propagation.
 
-### Further Information
+#### Further Information
 
 For those interested in the technical details of the Acventum model, you may directly contact our Delhom Acoustique R&D department for more in-depth discussions.
 
-### Future Developments
+#### Future Developments
 
 We are planning to expand the range of models available for use in Eolyse. The objective is to include other well-known models like Harmonoise and ISO9613 for educational comparisons and broader analytical capabilities.
 
-## Applications
+### Applications
 
-### Maps
+#### Maps
 
 The Maps application in Eolyse offers a straightforward way to visualize the spatial layout of your projects. Using mapping services provided by Mapbox API, it allows users to see the location of point sources and receivers on different types of map templates, such as Open Street Maps, Satellite, Light, and Dark.
 
-### Features
 
-#### Map Types
+##### Map Types
 Choose from different map templates to suit your visual preferences and specific needs.
 
-#### Full-Screen Mode
+##### Full-Screen Mode
 Expand the map view to full-screen for a more immersive experience.
 
-#### Measurement Perimeter
+##### Measurement Perimeter
 The application provides a measurement perimeter around point sources, in compliance with French regulation standards. This feature offers a visual guide to better understand the regulatory constraints on your wind farm.
 
-#### 500m Boundaries
+##### 500m Boundaries
 In line with French regulations, Maps also marks a 500m boundary around each point source and receiver. This helps users to quickly visualize any restrictions applicable due to these regulations.
 
-#### Marker Name Toggle
+##### Marker Name Toggle
 Easily toggle the visibility of marker names directly on the map. This feature can be particularly useful for simplifying complex maps with many points.
 
 
-### Standard
+#### Standard
 
 The **Standard** (or **STD**) application is designed to provide users with a quick overview of the noise impact at specified receiver points due to wind turbines operating under standard modes. In addition to assessing noise impacts, the Standard application also generates a curtailment plan utilizing a Genetic Algorithm (GA).
 
-#### Accessing Standard
+##### Accessing Standard
 Navigate to the **Standard** tab to access this application.
 
-#### Subtabs
+##### Subtabs
 All applications in Eolyse maintain a consistent structure of subtabs:
 1. **Console**: Here, you can select input parameters, run calculations, export results, and monitor the calculation process through a dedicated terminal view.
 2. **Noise Impact View**: This tab houses data visualizations related to noise impact results.
 3. **Curtailment View**: This tab offers visual insights into the curtailment plans generated by the application.
 
-#### Console Functions
+##### Console Functions
 - **Calculation History**: Keeps a record of the last calculations performed, aiding in tracking the user's past work.
 
-#### Input Parameters
+##### Input Parameters
 - **Day and Night Periods**: You can set meteorological conditions like temperature and humidity, which affect sound propagation, particularly atmospheric attenuation.
   
 - **Topography Toggle**: Enables automatic calculation of topographical screening along the source-receiver path using Maekawa's equation. Default resolution is 20 meters but can be adjusted.
@@ -248,25 +247,24 @@ All applications in Eolyse maintain a consistent structure of subtabs:
 
 - **Compliance Thresholds**: Modify noise compliance thresholds for ambient noise and noise impact, customizable for each receiver.
 
-#### Running the Calculation
+##### Running the Calculation
 To initiate the calculation, press the **Run** button. The backend server processes the data and returns the results. The user can follow the calculation step-by-step through the terminal located under the Run button.
 
-#### Exporting Results
+##### Exporting Results
 Once calculations are complete, results can be exported in three formats:
 - **RAW CSV**: Detailed but not user-friendly.
 - **XLS (Formated:Verbose)**: Formatted Excel table by Delhom Acoustique, offering a comprehensive view.
 - **XLS (Formated:Compliant)**: Another Excel table by Delhom Acoustique, but only displays impact noise above the ambient noise threshold.
 
-#### Noise Impact View Sub-Tab
+##### Noise Impact View Sub-Tab
 
 This sub-tab features detailed data visualizations of noise impact results for each receiver.
 
-##### Dashboard Settings
+###### Dashboard Settings
 - **Select Receiver, Wind Direction, and Period**: Allows users to filter results based on these parameters.
 - **Toggle Curtailment**: View the noise impact differences between normal operating modes and curtailment scenarios.
 - **Display by Source**: Allows users to delve deeper into the noise impact by viewing source-specific data.
 
-##### Data Visualization
 
 ###### Figures
 - **Sound Pressure Level Figure**: Plots Sound Pressure Level in dB(A) against standardized wind speed classes at 10m height. The graph displays the ambient noise, background noise, and induced noise levels.
@@ -275,15 +273,14 @@ This sub-tab features detailed data visualizations of noise impact results for e
 - **Result Table**: The table mirrors the information presented in the figures and includes additional columns for noise impact and compliance according to thresholds set in the console. 
 - **Export Function**: The table data can be exported directly to CSV using the export button located at the top-left corner of the table.
 
-#### Curtailment View Sub-Tab
+##### Curtailment View Sub-Tab
 
 This sub-tab provides insights into the curtailment plans calculated by the genetic algorithm for noise reduction.
 
-##### Dashboard Settings
+###### Dashboard Settings
 - **Select Wind Direction and Period**: Allows users to filter the curtailment plans based on these specific conditions.
 - **Rated Electrical Power**: Users can view the rated electrical power for the selected curtailment scenarios.
 
-##### Data Visualization
 
 ###### Figures
 - **Curtailment Comparison Figure**: Plots the difference in rated electrical power between normal operating modes and curtailment scenarios across various wind speed classes.
@@ -292,11 +289,11 @@ This sub-tab provides insights into the curtailment plans calculated by the gene
 - **Curtailment Plan Table**: Displays the specific curtailment plans as determined by the genetic algorithm, helping users to understand how curtailment would affect noise levels at different operating conditions.
 
 
-### Wind direction analysis
+#### Wind direction analysis
 
 This application is built with a structure similar to the "Standard" application and includes the sub-tabs: Console, Noise Impact View, and Curtailment View. The main objective of this application is to analyze the noise impact across 16 different wind sectors.
 
-#### Console Sub-Tab
+##### Console Sub-Tab
 
 - **Period Input**: Allows setting meteorological conditions for "Day" and "Night" periods (same as in the Standard application).
 - **Topography**: Enables/disables the topographic screen detection (same as in the Standard application).
@@ -304,35 +301,26 @@ This application is built with a structure similar to the "Standard" application
 
 **Running the Calculation**: Click the 'Run' button to initiate calculations. Monitor the calculation process using the terminal view. Results can be exported in RAW CSV or Delhom Acoustique-formatted XLS.
 
-#### Noise Impact View Sub-Tab
+##### Noise Impact View Sub-Tab
 
-##### Dashboard Settings
 - **Select Receiver**: Allows you to focus on noise impacts at specific receiver locations.
 - **Type of Noise**: Choose between Induced Noise, Ambient Noise, and Impact Noise.
 - **Toggle Curtailment**: Compare impacts under normal operating conditions and curtailment scenarios.
 
-##### Data Visualization
 - **Polar Chart**: This visualization allows users to view the noise impact across different wind sectors for specific receivers, making it easier to pinpoint the most impactful sectors.
 
-#### Curtailment View Sub-Tab
+##### Curtailment View Sub-Tab
 
-##### Dashboard Settings
 - **Select Wind Direction and Period**: Allows users to filter the curtailment plans based on these specific conditions.
-
-##### Data Visualization
-
-###### Polar Chart for Curtailment
 - **Rate of Electrical Power**: This polar chart displays the optimal rate of electrical power for each wind sector, helping to identify sectors where curtailment results in significant loss of electrical production.
 - **Visualization Types**: Offers two types of visualization – comparison between curtailment and normal operating modes, and ratio.
-
-###### Curtailment Plan Table
 - **Genetic Algorithm Output**: For specific wind sectors, the table displays the curtailment plans determined by the genetic algorithm. These can be exported for further analysis.
 
-### Sensitivity
+#### Sensitivity
 
 The Sensitivity application within the Eolyse workspace is specifically designed to explore the impact of a wind farm under hypothetical variations in background noise levels. It serves as a vital tool for engineers to assess how these variations influence the overall acoustic impact and electrical production of the wind farm.
 
-#### Key Features
+##### Key Features
 
 - **Recursive Calculation**: This feature performs calculations by varying the background noise at each receiver within a range from -5 dB(A) to +5 dB(A). This allows for a comprehensive understanding of how slight changes in background noise can influence the overall noise impact of the wind farm.
 
@@ -340,14 +328,14 @@ The Sensitivity application within the Eolyse workspace is specifically designed
 
 - **Electrical Production Metrics**: The global electrical production in MW is displayed according to standard wind speed classes and background noise steps, offering a fuller picture of how noise sensitivity can affect energy production.
 
-#### Benefits
+##### Benefits
 
 This application is an indispensable resource for engineers aiming to understand the sensitivity of a wind farm to changes in background noise. It facilitates data-driven decision-making processes to minimize noise impact while maximizing energy production.
 
-### Risk
+#### Risk
 The Risk application, within the Eolyse workspace is engineered to evaluate the risk of non-compliance of a wind farm project with noise regulations. It employs the Acventum calculation model for its analysis.
 
-#### Key Features
+##### Key Features
 
 - **Ambient Noise Deviation**: The application calculates the deviations between the ambient noise and regulatory thresholds for each homogeneous class. When the ambient noise value exceeds 35 dB(A), that specific homogeneous class is excluded from the analysis.
 
@@ -359,15 +347,15 @@ The Risk application, within the Eolyse workspace is engineered to evaluate the 
     R(i) = exp(1 / d_amb(i)) + d_impact(i)
     ```
   
-#### Benefits
+##### Benefits
 
 This application offers engineers a quantitative analysis of the non-compliance risk for a wind farm project concerning noise regulations. It enables data-driven decision-making to ensure compliance and minimize the risk of non-compliance.
 
-### Chronology
+#### Chronology
 
 The Chronology application in the Eolyse workspace is built on the Acventum-timeseries model. It enables calculations based on a time-series data set, facilitating a more detailed analysis of the noise impact of a wind farm over time.
 
-#### Key Features
+##### Key Features
 
 - **Inputs**: The model takes into account wind speed, wind direction, temperature, relative humidity, residual noise (or ambient noise) at each receiver, and the operating modes of each wind turbine. A sample data set can be downloaded for this purpose. The user can also set the time interval for analysis; it is recommended to keep the time interval constant.
 
@@ -381,15 +369,15 @@ The Chronology application in the Eolyse workspace is built on the Acventum-time
   
   - **Inverse Methode**: The input data set considers ambient noise; impacts are calculated, and residual noises are derived. Special cases where the calculated induced noise level is higher than the measured ambient noise may occur. In these cases, the model assumes a residual noise 10 dB(A) lower than the ambient noise.
 
-#### Benefits
+##### Benefits
 
 This application aids engineers in studying the temporal evolution of the noise impact of a wind farm and making data-driven decisions to minimize noise impact.
 
-### Mesh
+#### Mesh
 
 The Mesh application within the Eolyse workspace is designed to enable cartographic noise impact mapping for wind farms.
 
-#### Key Features
+##### Key Features
 
 - **Grid Creation**: Users can create a grid of points where the wind farm's noise impact will be calculated. The grid or mesh is limited to 40,000 points and is centered by default on the centroid of the wind farm's layout.
 
@@ -399,7 +387,7 @@ The Mesh application within the Eolyse workspace is designed to enable cartograp
 
 - **Computation Time**: The duration of the calculation depends on both the number of sources and the size of the mesh.
 
-#### Result Visualization
+##### Result Visualization
 
 - **Mapbox Integration**: The 'Result' sub-tab provides a Mapbox-based map that displays the noise impact on a color scale ranging from 0 to 100 dB(A), in steps of 5 dB(A).
 
@@ -407,20 +395,18 @@ The Mesh application within the Eolyse workspace is designed to enable cartograp
 
 - **Full Screen Mode**: A full-screen mode is available, and users can easily take screenshots of the results for inclusion in reports using the Plotly Express screenshot tool located at the top left of the figure.
 
-#### Upcoming Features
+##### Upcoming Features
 
 - **Topography**: Support for topographical data is in the pipeline and will be added soon.
 
-#### Benefits
+##### Benefits
 
 The Mesh application provides a robust tool for mapping the noise impact of wind farms, aiding in data-driven decision-making and reporting.
 
-# Acmonitor Connect
+## Acmonitor Connect
 
 ### Introduction to Acmonitor Connect
 
-
-## Introduction to Acmonitor Connect
 
 Acmonitor Connect is a dedicated workspace focused on acoustic measurements and their subsequent analysis. Initially developed as an IoT (Internet of Things) platform, it displayed real-time acoustic measurements from connected devices. The workspace has since evolved to facilitate advanced analysis calculations, not just on data from IoT devices received through MQTT, but also on datasets uploaded by the user.
 
