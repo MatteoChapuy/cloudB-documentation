@@ -40,3 +40,4 @@
         * [Wind Farm Analysis](workspaces.md#wind-farm-analysis)
         * [Upload Data](workspaces.md#upload-data)
 * [Troubleshooting and Support](troubleshooting.md#troubleshooting-and-support)
+* [Release note](release-note.md)

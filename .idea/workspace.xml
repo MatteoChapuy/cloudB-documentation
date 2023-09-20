@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8b837fe-dda2-413b-97a2-b4cd74d16f2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudb-documentation/docs/release-note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/getting-started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/getting-started/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/search/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/troubleshooting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/troubleshooting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/workspaces/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/workspaces/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UiI8x2YsR84iZdy1dN65IKMBWt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matteochapuy/dev/CloudB Documentation/cloudb-documentation/docs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloudb-documentation/docs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8b837fe-dda2-413b-97a2-b4cd74d16f2e" name="Changes" comment="" />
+      <created>1693415818769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693415818769</updated>
+      <workItem from="1693415820377" duration="4572000" />
+      <workItem from="1693463876450" duration="9311000" />
+      <workItem from="1693477025620" duration="7492000" />
+      <workItem from="1693494189532" duration="4358000" />
+      <workItem from="1693553143962" duration="57000" />
+      <workItem from="1693553212054" duration="2265000" />
+      <workItem from="1695144173393" duration="3811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
