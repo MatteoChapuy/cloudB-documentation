@@ -84,7 +84,14 @@ Model Nominal_Power Serration Hub_Height Data_Sheet_Year_Of_Release
 
 #### Adding Custom Models
 
-To add your own custom models, click the "+" button at the top right corner of the library page. A form will pop up to guide you through the process of creating a new custom model.
+To add your own custom models, click the "+" button at the top right corner of the library page. A form will pop up to guide you through the process of creating a new custom model.  
+
+**Important Notes**:
+
+- Number of Modes: Enter the number of modes for the wind turbine plus 1. This additional mode should be designated as the "Stop" mode.
+- Stop Mode: The last mode should be the "Stop" mode. For this mode, set the production power and global acoustic level to zero, and set the spectral values to -13.8 dB.
+- Mode Order: When entering multiple modes, it's preferable to list them from the most noisy to the least noisy.
+
 
 #### Maintenance by Delhom Acoustique
 
@@ -359,7 +366,8 @@ The Chronology application in the Eolyse workspace is built on the Acventum-time
 
 - **Inputs**: The model takes into account wind speed, wind direction, temperature, relative humidity, residual noise (or ambient noise) at each receiver, and the operating modes of each wind turbine. A sample data set can be downloaded for this purpose. The user can also set the time interval for analysis; it is recommended to keep the time interval constant.
 
-- **Operating Modes**: The operating modes for wind turbines expect integer values ranging from 0 for the first operating mode to \( n \) for the weakest operating mode. Dates should be entered in the format DD/MM/YY HH:MM.
+- **Operating Modes**: The operating modes for wind turbines expect integer values ranging from 0 for the first operating mode N + 1. The weakest Mode should be the mode N. The Mode N + 1 should be the mode Stop. 
+Dates should be entered in the format DD/MM/YY HH:MM.
 
 - **Time-series Analysis**: The application calculates the noise impact for each time interval at each receiver. Results are displayed in a noise timeline chart, helping engineers better understand the noise impact according to the time of day or week and identify noise impact patterns.
 
@@ -407,7 +415,6 @@ The Mesh application provides a robust tool for mapping the noise impact of wind
 
 ### Introduction to Acmonitor Connect
 
-
 Acmonitor Connect is a dedicated workspace focused on acoustic measurements and their subsequent analysis. Initially developed as an IoT (Internet of Things) platform, it displayed real-time acoustic measurements from connected devices. The workspace has since evolved to facilitate advanced analysis calculations, not just on data from IoT devices received through MQTT, but also on datasets uploaded by the user.
 
 ### Device Data
@@ -437,8 +444,33 @@ By following these steps, users can effectively query, view, and download real-t
 
 ### Wind Farm Analysis
 
-This application within the workspace is under development and aims to provide comprehensive analysis calculations based on the acoustic and meteorological measurements. This allows users to conduct in-depth studies on wind farm noise impacts, utilizing either real-time data or historical datasets.
+The Wind Farm Analysis application is designed to offer comprehensive analysis based on acoustic and meteorological measurements. It allows users to conduct in-depth studies on wind farm noise impacts, utilizing either real-time data or historical datasets. The application is divided into two primary views:
+
+#### Dataset view
+
+This view offers data visualizations based on the datasets selected for analysis.
+
+Data Sources: A dataset is composed of two sources: the acoustic source and the meteorological source.
+- Acoustic Source: Provided by Acmonitor stations, which gather acoustic data and store them in our cloud as IoT devices. These are directly accessible within the platform.
+- Meteorological Source: Provided by the user in the form of a CSV file through the Upload Data section. The file should contain time series data on wind velocity, wind direction, temperature, humidity, and wind farm operating modes.
+
+Creating a New Analysis: By clicking the "Analysis" button, users can select their two data sources for analysis. Data sources can later be updated using the "Data Source" button.
+
+Filters: The "Filter" button allows users to refine the dataset based on specific criteria such as time period, acoustic levels, wind velocity, wind direction, and rain.
+
+#### Analysis View
+Calculations: This view initiates the calculations based on the French standard analysis described in the acoustic measurement protocol of June 2023.
+
+Results: Users can access visualizations and compliance results related to the measurements.
 
 ### Upload Data
 
-This is a utility application that enables users to upload their own acoustic and meteorological datasets. The uploaded data can then be used for analysis in the 'Wind Farm Analysis' application, providing a seamless and integrated experience.
+The Upload Data application is a utility tool designed to enable users to upload their acoustic and meteorological datasets. These datasets can then be used for analysis in the 'Wind Farm Analysis' application, providing a seamless and integrated experience. The Upload Data application has recently been updated with several new features:
+
+- Data Archiving: Users can archive their upload data by downloading template files. This makes it easier to maintain and manage multiple datasets.
+
+- Wind Data Standardization: During the upload process, users have the option to indicate whether their wind data is already standardized. If Yes: No additional action is needed. If No: Users can provide the height of the measurement point, and the code will automatically standardize the data for the user.
+
+- Cloud Storage: All uploaded datasets are securely stored on the cloud and are accessible to the user.
+
+- Data Management: Users can manage their stored datasets directly within the Upload Data application. This includes the ability to remove datasets if they are no longer needed.
