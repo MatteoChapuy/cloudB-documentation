@@ -4,6 +4,22 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ---
 
+## November 2023
+
+### Version 1.2.4 to 1.2.5
+
+#### Acmonitor Connect
+
+##### Wind Farm Analysis app
+
+- **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.
+- **Streamlined Data Access**: We've added a convenient "Close" button for a smoother user experience. When you apply a filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.
+- **Filter by Acoustic Level**: We've resolved a bug that was preventing users from filtering data by acoustic level. You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your wind farm analysis.
+
+##### Upload data app
+
+- **Header Correction**: We've resolved a bug that was affecting the date and time header when uploading files. The header is now called correctly.
+
 ## October 2023
 
 ### Version 1.2.0 to 1.2.3

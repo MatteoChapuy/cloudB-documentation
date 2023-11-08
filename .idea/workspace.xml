@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8b837fe-dda2-413b-97a2-b4cd74d16f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudb-documentation/docs/release-note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/mkdocs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/getting-started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/getting-started/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/search/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/sitemap.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/troubleshooting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/troubleshooting/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudb-documentation/site/workspaces/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/site/workspaces/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudb-documentation/docs/release-note.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloudb-documentation/docs/release-note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +25,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matteochapuy/dev/CloudB Documentation/cloudb-documentation/docs&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a.baddi/Desktop/Dev/cloudB-documentation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cloudb-documentation/docs" />
@@ -70,6 +60,7 @@
       <workItem from="1693553143962" duration="57000" />
       <workItem from="1693553212054" duration="2265000" />
       <workItem from="1695144173393" duration="3811000" />
+      <workItem from="1699455430471" duration="2690000" />
     </task>
     <servers />
   </component>
