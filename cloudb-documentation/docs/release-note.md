@@ -12,6 +12,7 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Wind Farm Analysis app
 
+- **Enhanced Time Range Visibility**: We've added a convenient feature to improve your analysis experience. Now, when you hover over the "Change time range" button, the start and end times of the analysis will be displayed.
 - **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.
 - **Streamlined Data Access**: We've added a convenient "Close" button for a smoother user experience. When you apply a filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.
 - **Filter by Acoustic Level**: We've resolved a bug that was preventing users from filtering data by acoustic level. You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your wind farm analysis.
