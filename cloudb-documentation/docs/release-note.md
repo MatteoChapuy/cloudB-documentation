@@ -12,6 +12,7 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Wind Farm Analysis app
 
+- **Data Export Options**: Now, datasets can be downloaded in both CSV and Excel file formats.
 - **Enhanced Time Range Visibility**: We've added a convenient feature to improve your analysis experience. Now, when you hover over the "Change time range" button, the start and end times of the analysis will be displayed.
 - **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.
 - **Streamlined Data Access**: We've added a convenient "Close" button for a smoother user experience. When you apply a filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.
