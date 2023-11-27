@@ -10,8 +10,14 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 #### Acmonitor Connect
 
+##### Device data app
+
+- **Enhanced Data Display**: Data can now be displayed for periods exceeding one month.
+
 ##### Wind Farm Analysis app
 
+- **Streamlined Filter Management**: Filter parameters are now conveniently accessible through intuitive input fields, replacing dropdowns for a more user-friendly filtering experience.
+- **Enhanced Data Visualization**: Filtered data is now highlighted in a distinct color within the analysis section.
 - **Data Export Options**: Now, datasets can be downloaded in both CSV and Excel file formats.
 - **Enhanced Time Range Visibility**: We've added a convenient feature to improve your analysis experience. Now, when you hover over the "Change time range" button, the start and end times of the analysis will be displayed.
 - **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.
