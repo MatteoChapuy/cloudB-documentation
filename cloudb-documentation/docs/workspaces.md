@@ -86,12 +86,26 @@ Model Nominal_Power Serration Hub_Height Data_Sheet_Year_Of_Release
 
 To add your own custom models, click the "+" button at the top right corner of the library page. A form will pop up to guide you through the process of creating a new custom model.  
 
+1. Fill the proposed form:
+    Enter the number of modes for the wind turbine plus 1. This additional mode should be designated as the "Stop" mode
+
+2. Download the CSV Template: 
+   Begin by downloading the CSV template provided by Eolyse. This template is specifically designed to match the expected data format and structure.
+
+3. Fill in the Data: 
+   Carefully enter your data into the downloaded template. Ensure that all entries are accurate and comply with the format guidelines.
+
+4. Use a Point for Decimal Separation: 
+   When inputting numerical values, particularly those with decimals, use a point (.) as the decimal separator. Avoid using a comma (,) for this purpose, as it may lead to data misinterpretation.
+
+5. Save and Upload the File: 
+   After entering all the necessary data, save the file. Then, upload this saved file back to the Eolyse platform. This process ensures compatibility and proper decoding of the data format by the system.
+
+
 **Important Notes**:
 
-- Number of Modes: Enter the number of modes for the wind turbine plus 1. This additional mode should be designated as the "Stop" mode.
 - Stop Mode: The last mode should be the "Stop" mode. For this mode, set the production power and global acoustic level to zero, and set the spectral values to -13.8 dB.
 - Mode Order: When entering multiple modes, it's preferable to list them from the most noisy to the least noisy.
-
 
 #### Maintenance by Delhom Acoustique
 
