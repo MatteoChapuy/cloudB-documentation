@@ -24,7 +24,6 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 ##### Device data app
 
 - **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.
-- **Enhanced Data Display**: Data can now be displayed for periods exceeding one month.
 
 ##### Wind Farm Analysis app
 
