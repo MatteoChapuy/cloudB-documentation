@@ -4,6 +4,17 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ---
 
+## December 2023
+
+### Version 1.2.6
+
+#### Acmonitor Connect
+
+##### Device data app
+
+- **Device Details**: Now, select device button give the access of a table that display detailed information about device status and battery levels.
+- **Battery information**: Now you have the ability to simply select the device you're interested in and check its current battery level.
+
 ## November 2023
 
 ### Version 1.2.4 to 1.2.5
