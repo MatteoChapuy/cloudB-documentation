@@ -12,6 +12,7 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Device data app
 
+- **Enhanced Data Display**: Data can now be displayed for periods exceeding 15 days.
 - **Search bar optimization**: Our search bar is now fast and executes instantly.
 - **Device Details**: Now, select device button give the access of a table that display detailed information about device status and battery levels.
 - **Battery information**: Now you have the ability to simply select the device you're interested in and check its current battery level.
