@@ -4,6 +4,20 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ---
 
+## january 2023
+
+### Version 1.2.7
+
+#### Acmonitor Connect
+
+##### Device data app
+
+- **Sortable Devices by Status**: Easily manage your devices by sorting them according to their status. This new feature provides a quick and efficient way to organize and track the status of your devices.
+
+##### Wind Farm Analysis app
+
+- **Enhanced Data Display**: Acoustic data can now be displayed for periods exceeding 15 days.
+
 ## December 2023
 
 ### Version 1.2.6
@@ -29,6 +43,7 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Wind Farm Analysis app
 
+- **Close Button for Filters**: Quickly revert to the unfiltered raw data with the new "Close" button next to the filter name. This simplifies your data exploration, making it more efficient.
 - **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.
 - **Streamlined Filter Management**: Filter parameters are now conveniently accessible through intuitive input fields, replacing dropdowns for a more user-friendly filtering experience.
 - **Enhanced Data Visualization**: Filtered data is now highlighted in a distinct color within the analysis section.
