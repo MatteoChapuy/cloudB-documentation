@@ -1,10 +1,36 @@
 # [Release Notes](release-note.md)
 
-Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that have been added to CloudB over the course of the year.
+Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that
+have been added to CloudB over the course of the year.
 
 ---
 
-## january 2023
+## February 2024
+
+### Version 1.2.8
+
+#### General Updates:
+
+- Upgraded database architecture for enhanced performance.
+- Refined SQL connection protocols to align with the new database structure.
+
+#### Acmonitor Connect Enhancements:
+
+- **Wind Farm Analysis**: Introduced a comprehensive wind rose, featuring both global views and segmented displays by
+  wind speed classes.
+- **Project Application**: Deployed the initial two sprints for user testing, laying the groundwork for future
+  development in Acmonitor Connect.
+- **Device Application**: Resolved numerical discrepancies in data display ratios.
+
+#### Eolyse Improvements:
+
+- **User Access**: Tailored wind turbine library access for 'inter' and 'client' roles, ensuring appropriate
+  user-specific model filtering.
+- **Map Layout**: Addressed and rectified the map background layout issue in the Mesh application.
+- **Mesh Center Point**: Added functionality for users to specify a custom center point within the Mesh application,
+  providing greater control over mesh generation.
+
+## January 2024
 
 ### Version 1.2.7
 
@@ -12,7 +38,8 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Device data app
 
-- **Sortable Devices by Status**: Easily manage your devices by sorting them according to their status. This new feature provides a quick and efficient way to organize and track the status of your devices.
+- **Sortable Devices by Status**: Easily manage your devices by sorting them according to their status. This new feature
+  provides a quick and efficient way to organize and track the status of your devices.
 
 ##### Wind Farm Analysis app
 
@@ -28,8 +55,10 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 - **Enhanced Data Display**: Data can now be displayed for periods exceeding 15 days.
 - **Search bar optimization**: Our search bar is now fast and executes instantly.
-- **Device Details**: Now, select device button give the access of a table that display detailed information about device status and battery levels.
-- **Battery information**: Now you have the ability to simply select the device you're interested in and check its current battery level.
+- **Device Details**: Now, select device button give the access of a table that display detailed information about
+  device status and battery levels.
+- **Battery information**: Now you have the ability to simply select the device you're interested in and check its
+  current battery level.
 
 ## November 2023
 
@@ -39,23 +68,34 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 ##### Device data app
 
-- **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.
+- **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search
+  for devices with precision.
 
 ##### Wind Farm Analysis app
 
-- **Close Button for Filters**: Quickly revert to the unfiltered raw data with the new "Close" button next to the filter name. This simplifies your data exploration, making it more efficient.
-- **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.
-- **Streamlined Filter Management**: Filter parameters are now conveniently accessible through intuitive input fields, replacing dropdowns for a more user-friendly filtering experience.
+- **Close Button for Filters**: Quickly revert to the unfiltered raw data with the new "Close" button next to the filter
+  name. This simplifies your data exploration, making it more efficient.
+- **Enhanced Search Bar**: The search bar has been tuned and is fully operational, allowing you to effortlessly search
+  for devices with precision.
+- **Streamlined Filter Management**: Filter parameters are now conveniently accessible through intuitive input fields,
+  replacing dropdowns for a more user-friendly filtering experience.
 - **Enhanced Data Visualization**: Filtered data is now highlighted in a distinct color within the analysis section.
 - **Data Export Options**: Now, datasets can be downloaded in both CSV and Excel file formats.
-- **Enhanced Time Range Visibility**: We've added a convenient feature to improve your analysis experience. Now, when you hover over the "Change time range" button, the start and end times of the analysis will be displayed.
-- **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.
-- **Streamlined Data Access**: We've added a convenient "Close" button for a smoother user experience. When you apply a filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.
-- **Filter by Acoustic Level**: We've resolved a bug that was preventing users from filtering data by acoustic level. You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your wind farm analysis.
+- **Enhanced Time Range Visibility**: We've added a convenient feature to improve your analysis experience. Now, when
+  you hover over the "Change time range" button, the start and end times of the analysis will be displayed.
+- **Download Improved results analysis Files**: We've enhanced the file download feature. Now, when you download a
+  results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for
+  easy reference.
+- **Streamlined Data Access**: We've added a convenient "Close" button for a smoother user experience. When you apply a
+  filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.
+- **Filter by Acoustic Level**: We've resolved a bug that was preventing users from filtering data by acoustic level.
+  You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your
+  wind farm analysis.
 
 ##### Upload data app
 
-- **Header Correction**: We've resolved a bug that was affecting the date and time header when uploading files. The header is now called correctly.
+- **Header Correction**: We've resolved a bug that was affecting the date and time header when uploading files. The
+  header is now called correctly.
 
 ## October 2023
 
@@ -65,15 +105,22 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 #### Acmonitor Connect
 
-- **Wind Farm Analysis app**: A specialized application designed for analyzing measurements collected by the Acmonitor stations.
-- **Enhanced Upload Section**: The upload functionality in Acmonitor Connect now supports weather and wind time series data, allowing for seamless cloud-based analysis.
-- **Devices Data upgrade**: Improvements to the Devices Data application offer a more intuitive selection process for time series visualization.
+- **Wind Farm Analysis app**: A specialized application designed for analyzing measurements collected by the Acmonitor
+  stations.
+- **Enhanced Upload Section**: The upload functionality in Acmonitor Connect now supports weather and wind time series
+  data, allowing for seamless cloud-based analysis.
+- **Devices Data upgrade**: Improvements to the Devices Data application offer a more intuitive selection process for
+  time series visualization.
 
 #### Eolyse
 
-- **Project name creation**: Users will now be prompted to avoid using special characters when creating project names, streamlining data handling.  
-- **Wind direction selection**: Issues related to Acventum backend's default wind direction data have been corrected, ensuring smoother operation.  
-- **Custom wind turbine and direct usage**: Previously, custom wind turbines added by users were not immediately available for use. This has been addressed; Eolyse now scans for available turbines each time a new calculation is initiated.  
+- **Project name creation**: Users will now be prompted to avoid using special characters when creating project names,
+  streamlining data handling.
+- **Wind direction selection**: Issues related to Acventum backend's default wind direction data have been corrected,
+  ensuring smoother operation.
+- **Custom wind turbine and direct usage**: Previously, custom wind turbines added by users were not immediately
+  available for use. This has been addressed; Eolyse now scans for available turbines each time a new calculation is
+  initiated.
 
 ---
 
@@ -87,13 +134,17 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 - **New URL**: Now operates under our company's domain name for a more cohesive brand experience.
 - **UI Overhaul**: A simplified and intuitive user interface to improve user experience.
-- **User Management Update**: Distinguish between internal users and clients, with the ability to specify account access permissions.
-- **Cloud Architecture Update**: Transitioned to a new architecture with separate frontend and backend servers for optimized calculations on Google Cloud.
-- **Enhanced Documentation**: Moved to GitHub Pages, offering more comprehensive guidance compared to the previous Monday documentation.
+- **User Management Update**: Distinguish between internal users and clients, with the ability to specify account access
+  permissions.
+- **Cloud Architecture Update**: Transitioned to a new architecture with separate frontend and backend servers for
+  optimized calculations on Google Cloud.
+- **Enhanced Documentation**: Moved to GitHub Pages, offering more comprehensive guidance compared to the previous
+  Monday documentation.
 
 #### Eolyse
 
-- **Wind Turbine Library**: Users can consult our extensive wind turbine library with improved data visualization and even add their own personalized wind turbine models.
+- **Wind Turbine Library**: Users can consult our extensive wind turbine library with improved data visualization and
+  even add their own personalized wind turbine models.
 - **API Maps Elevation**: Significant improvements in calculation time. Elevation data is now available worldwide.
 - **Export Format**: New export format available in Delhom-branded Excel sheets for easy data extraction.
 - **Simulation History**: Simplified tracking of past calculations across different applications.
@@ -108,15 +159,21 @@ Welcome to the CloudB Release Notes! In this document, we'll highlight the new f
 
 #### General CloudB Features
 
-- **User Management Service Upgrade** : we have upgraded our user management service by integrating a Redis server. This enhancement is expected to eliminate instances of unanticipated logouts. Users can now enjoy a more seamless and uninterrupted experience.
-- **Cloud Run instance Upgrade** : to provide a robust infrastructure for handling concurrent requests, we have upgraded our Cloud Run Station from 512 MB RAM and 1 CPU to 8 GB RAM and 4 CPUs. This substantial upgrade allows us to increase the number of workers from 1 to 9, thereby significantly improving our capacity to manage simultaneous requests. You should notice a faster response time and improved system performance.
+- **User Management Service Upgrade** : we have upgraded our user management service by integrating a Redis server. This
+  enhancement is expected to eliminate instances of unanticipated logouts. Users can now enjoy a more seamless and
+  uninterrupted experience.
+- **Cloud Run instance Upgrade** : to provide a robust infrastructure for handling concurrent requests, we have upgraded
+  our Cloud Run Station from 512 MB RAM and 1 CPU to 8 GB RAM and 4 CPUs. This substantial upgrade allows us to increase
+  the number of workers from 1 to 9, thereby significantly improving our capacity to manage simultaneous requests. You
+  should notice a faster response time and improved system performance.
 
 #### Eolyse:
-We've addressed a crucial issue in the Eolyse workspace concerning the Chronologies app. Previously, users experienced problems with wind turbine model calculations due to model confusion. This patch fixes that issue, allowing users to perform their calculations without any model mix-up.
+
+We've addressed a crucial issue in the Eolyse workspace concerning the Chronologies app. Previously, users experienced
+problems with wind turbine model calculations due to model confusion. This patch fixes that issue, allowing users to
+perform their calculations without any model mix-up.
 
 ---
-
-
 
 ## April 2023
 
@@ -124,7 +181,9 @@ We've addressed a crucial issue in the Eolyse workspace concerning the Chronolog
 
 #### Eolyse
 
-- **Patch** : Eolyse apps now replace default NaN elevation by 0 in the calculation. Minor patch to fix issues with dataset semicolon issue in app standard : added a round method in app standard data table display. Fixed CSV import separator issue with semicolon. Fixed CSV import source modeling dropdown filtering.
+- **Patch** : Eolyse apps now replace default NaN elevation by 0 in the calculation. Minor patch to fix issues with
+  dataset semicolon issue in app standard : added a round method in app standard data table display. Fixed CSV import
+  separator issue with semicolon. Fixed CSV import source modeling dropdown filtering.
 - **Simulation upgrade** : simulation can now be renamed, duplicated or deleted.
 
 #### Acmonitor Connect
@@ -137,6 +196,7 @@ We've addressed a crucial issue in the Eolyse workspace concerning the Chronolog
 
 ### Version 1.0.0 to 1.0.2
 
-####  Eolyse
+#### Eolyse
 
-- **Patch** : Acventum and AcventumTimeSeries can now decode CSV files with ; separator. Projects can now be created normally on Eolyse
+- **Patch** : Acventum and AcventumTimeSeries can now decode CSV files with ; separator. Projects can now be created
+  normally on Eolyse
