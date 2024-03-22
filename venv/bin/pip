@@ -1,4 +1,4 @@
-#!/Users/alibaddi/Desktop/Dev/cloudB-documentation/venv/bin/python3.11
+#!/Users/matteochapuy/dev/cloudB-documentation/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
