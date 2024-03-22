@@ -62,6 +62,18 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Release note</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#march-2024">March 2024</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#version-129">Version 1.2.9</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#eolyse-improvements">Eolyse Improvements:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect">Acmonitor Connect :</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#february-2024">February 2024</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-128">Version 1.2.8</a>
@@ -70,7 +82,7 @@
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect-enhancements">Acmonitor Connect Enhancements:</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#eolyse-improvements">Eolyse Improvements:</a>
+    <li class="toctree-l4"><a class="reference internal" href="#eolyse-improvements_1">Eolyse Improvements:</a>
     </li>
         </ul>
     </li>
@@ -80,7 +92,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-127">Version 1.2.7</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_1">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -90,7 +102,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-126">Version 1.2.6</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_1">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_2">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -100,7 +112,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-124-to-125">Version 1.2.4 to 1.2.5</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_2">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_3">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -110,7 +122,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-120-to-123">Version 1.2.0 to 1.2.3</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_3">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_4">Acmonitor Connect</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#eolyse">Eolyse</a>
     </li>
@@ -148,7 +160,7 @@
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#eolyse_3">Eolyse</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_4">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_5">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -194,6 +206,42 @@
 <p>Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that
 have been added to CloudB over the course of the year.</p>
 <hr />
+<h2 id="march-2024">March 2024</h2>
+<h3 id="version-129">Version 1.2.9</h3>
+<h4 id="eolyse-improvements">Eolyse Improvements:</h4>
+<ul>
+<li>
+<p><strong>Data Export Enhancements</strong>: Enhanced the data download functionality to allow users to select specific wind classes
+  for their reports, ranging by default from 3 m/s to 12 m/s. This customizable feature is now available for CSV and XLS
+  exports across Eolyse applications: Standard, Wind Direction Analysis, Sensitivity, and Compliance Risk.</p>
+</li>
+<li>
+<p><strong>Naming Convention Optimization</strong>: Users can now begin naming receiver and source points with numbers and utilize
+  the "_" symbol. This update is designed to facilitate easier sorting and indexing of receiver names.</p>
+</li>
+<li>
+<p><strong>Interactive Chart Improvements</strong>: In the Wind Direction Analysis application, when ratio mode is activated, users
+  can now view ratios as percentages via mouse hover over the chart, enhancing data interaction and readability.</p>
+</li>
+<li>
+<p><strong>Fullscreen Mode Guidance</strong>: Added a simple message in the Mesh application's full-screen mode, informing users they
+  can exit full-screen mode using the Escape key, aiming to improve user navigation and experience.</p>
+</li>
+<li>
+<p><strong>Chronology Application Feature</strong>: Introduced the ability for users to input the electrical power generated by each
+  turbine in the Chronology application. This addition enables a new data chart where users can compare noise levels
+  induced by electrical power, both globally and per wind turbine.</p>
+</li>
+<li>
+<p><strong>Chart Display Correction</strong>: Fixed an issue in the Sensitivity to Residual Noise application where the electrical
+  power chart's x-axis incorrectly displayed index values instead of the correct wind classes from 3 m/s to 12 m/s.</p>
+</li>
+</ul>
+<h4 id="acmonitor-connect">Acmonitor Connect :</h4>
+<ul>
+<li><strong>Project Application</strong>: Deployed the third sprint for user testing. Application is still not available for now. </li>
+</ul>
+<hr />
 <h2 id="february-2024">February 2024</h2>
 <h3 id="version-128">Version 1.2.8</h3>
 <h4 id="general-updates">General Updates:</h4>
@@ -209,7 +257,7 @@ have been added to CloudB over the course of the year.</p>
   development in Acmonitor Connect.</li>
 <li><strong>Device Application</strong>: Resolved numerical discrepancies in data display ratios.</li>
 </ul>
-<h4 id="eolyse-improvements">Eolyse Improvements:</h4>
+<h4 id="eolyse-improvements_1">Eolyse Improvements:</h4>
 <ul>
 <li><strong>User Access</strong>: Tailored wind turbine library access for 'inter' and 'client' roles, ensuring appropriate
   user-specific model filtering.</li>
@@ -217,9 +265,10 @@ have been added to CloudB over the course of the year.</p>
 <li><strong>Mesh Center Point</strong>: Added functionality for users to specify a custom center point within the Mesh application,
   providing greater control over mesh generation.</li>
 </ul>
+<hr />
 <h2 id="january-2024">January 2024</h2>
 <h3 id="version-127">Version 1.2.7</h3>
-<h4 id="acmonitor-connect">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_1">Acmonitor Connect</h4>
 <h5 id="device-data-app">Device data app</h5>
 <ul>
 <li><strong>Sortable Devices by Status</strong>: Easily manage your devices by sorting them according to their status. This new feature
@@ -229,9 +278,10 @@ have been added to CloudB over the course of the year.</p>
 <ul>
 <li><strong>Enhanced Data Display</strong>: Acoustic data can now be displayed for periods exceeding 15 days.</li>
 </ul>
+<hr />
 <h2 id="december-2023">December 2023</h2>
 <h3 id="version-126">Version 1.2.6</h3>
-<h4 id="acmonitor-connect_1">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_2">Acmonitor Connect</h4>
 <h5 id="device-data-app_1">Device data app</h5>
 <ul>
 <li><strong>Enhanced Data Display</strong>: Data can now be displayed for periods exceeding 15 days.</li>
@@ -241,9 +291,10 @@ have been added to CloudB over the course of the year.</p>
 <li><strong>Battery information</strong>: Now you have the ability to simply select the device you're interested in and check its
   current battery level.</li>
 </ul>
+<hr />
 <h2 id="november-2023">November 2023</h2>
 <h3 id="version-124-to-125">Version 1.2.4 to 1.2.5</h3>
-<h4 id="acmonitor-connect_2">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_3">Acmonitor Connect</h4>
 <h5 id="device-data-app_2">Device data app</h5>
 <ul>
 <li><strong>Enhanced Search Bar</strong>: The search bar has been tuned and is fully operational, allowing you to effortlessly search
@@ -275,10 +326,11 @@ have been added to CloudB over the course of the year.</p>
 <li><strong>Header Correction</strong>: We've resolved a bug that was affecting the date and time header when uploading files. The
   header is now called correctly.</li>
 </ul>
+<hr />
 <h2 id="october-2023">October 2023</h2>
 <h3 id="version-120-to-123">Version 1.2.0 to 1.2.3</h3>
 <p><strong>Major update: Introduction of the Wind Farm Analysis Application in Acmonitor Connect</strong></p>
-<h4 id="acmonitor-connect_3">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_4">Acmonitor Connect</h4>
 <ul>
 <li><strong>Wind Farm Analysis app</strong>: A specialized application designed for analyzing measurements collected by the Acmonitor
   stations.</li>
@@ -349,7 +401,7 @@ perform their calculations without any model mix-up.</p>
   separator issue with semicolon. Fixed CSV import source modeling dropdown filtering.</li>
 <li><strong>Simulation upgrade</strong> : simulation can now be renamed, duplicated or deleted.</li>
 </ul>
-<h4 id="acmonitor-connect_4">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_5">Acmonitor Connect</h4>
 <ul>
 <li><strong>Updates</strong> : plot line type changed from continuous to dot for non-equivalent acoustic data.</li>
 </ul>
