@@ -456,6 +456,39 @@ Below is a step-by-step guide on how to use this feature:
 
 By following these steps, users can effectively query, view, and download real-time acoustic data from connected monitoring systems.
 
+### Project
+
+Project is a versatile application designed to streamline project management and data visualization. It facilitates 
+the creation and management of acoustic projects, offering tools to input and edit essential project details such 
+as names, descriptions, geographical data, and images. Users can also manage measurement devices crucial for data 
+collection, view detailed device data, and download this data in a user-friendly CSV format. The app integrates map 
+views for a spatial understanding of projects and devices, enhancing the interactive experience by displaying project 
+details and device statuses directly on the map. With robust user management capabilities, "Project" ensures secure 
+and role-specific access, allowing project owners to control data visibility and modification permissions effectively.
+
+1. **Project and Device Management**:
+   - **Creating and Managing Projects**: Users can initiate new projects by specifying names, descriptions, locations, 
+   and uploading images. Projects can be edited or deleted as per ongoing requirements.
+   - **Adding and Modifying Devices**: Devices used for measurements can be added to projects with specific location 
+   details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
+   and make modifications or delete devices as needed.
+   - 
+2. **Data Interaction**:
+   - **Visualization**: Users can select individual devices to access a detailed data visualization panel, which 
+   provides insights within chosen time ranges.
+   - **Data Download**: For deeper analysis or record-keeping, data can be downloaded directly from the app in CSV 
+   format.
+
+3. **Map Integration**:
+   - **Interactive Map Display**: Both projects and devices are plotted on an interactive map, with hover-over details 
+   revealing names. This feature aids in quickly locating and distinguishing projects and their associated devices.
+
+4. **User Management and Access Control**:
+   - **User Roles and Permissions**: The app supports diverse user roles, including Owners and Viewers. Owners have 
+   comprehensive control over projects and devices, capable of making any modifications. Viewers have access to view 
+   all device data and project details, ensuring transparency without compromising control.
+
+
 ### Wind Farm Analysis
 
 The Wind Farm Analysis application is designed to offer comprehensive analysis based on acoustic and meteorological measurements. It allows users to conduct in-depth studies on wind farm noise impacts, utilizing either real-time data or historical datasets. The application is divided into two primary views:
