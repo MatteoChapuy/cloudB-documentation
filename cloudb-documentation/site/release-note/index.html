@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Release note - CloudB Documentation</title>
+    <title>Release Notes - CloudB Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Release note";
+        var mkdocs_page_name = "Release Notes";
         var mkdocs_page_input_path = "release-note.md";
         var mkdocs_page_url = null;
       </script>
@@ -48,7 +48,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting started</a>
+                <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
                 </li>
               </ul>
               <ul>
@@ -60,13 +60,39 @@
                 </li>
               </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">Release note</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Release Notes</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#january-2023">january 2023</a>
+    <li class="toctree-l2"><a class="reference internal" href="#march-2024">March 2024</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#version-129">Version 1.2.9</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#eolyse-improvements">Eolyse Improvements:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect">Acmonitor Connect :</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#february-2024">February 2024</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#version-128">Version 1.2.8</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#general-updates">General Updates:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect-enhancements">Acmonitor Connect Enhancements:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#eolyse-improvements_1">Eolyse Improvements:</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#january-2024">January 2024</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-127">Version 1.2.7</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_1">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -76,7 +102,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-126">Version 1.2.6</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_1">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_2">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -86,7 +112,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-124-to-125">Version 1.2.4 to 1.2.5</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_2">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_3">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -96,7 +122,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-120-to-123">Version 1.2.0 to 1.2.3</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_3">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_4">Acmonitor Connect</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#eolyse">Eolyse</a>
     </li>
@@ -134,7 +160,7 @@
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#eolyse_3">Eolyse</a>
     </li>
-    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_4">Acmonitor Connect</a>
+    <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect_5">Acmonitor Connect</a>
     </li>
         </ul>
     </li>
@@ -167,7 +193,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Release note</li>
+      <li class="breadcrumb-item active">Release Notes</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -177,66 +203,151 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="release-notes"><a href="./">Release Notes</a></h1>
-<p>Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that have been added to CloudB over the course of the year.</p>
+<p>Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that
+have been added to CloudB over the course of the year.</p>
 <hr />
-<h2 id="january-2023">january 2023</h2>
+<h2 id="march-2024">March 2024</h2>
+<h3 id="version-129">Version 1.2.9</h3>
+<h4 id="eolyse-improvements">Eolyse Improvements:</h4>
+<ul>
+<li>
+<p><strong>Data Export Enhancements</strong>: Enhanced the data download functionality to allow users to select specific wind classes
+  for their reports, ranging by default from 3 m/s to 12 m/s. This customizable feature is now available for CSV and XLS
+  exports across Eolyse applications: Standard, Wind Direction Analysis, Sensitivity, and Compliance Risk.</p>
+</li>
+<li>
+<p><strong>Naming Convention Optimization</strong>: Users can now begin naming receiver and source points with numbers and utilize
+  the "_" symbol. This update is designed to facilitate easier sorting and indexing of receiver names.</p>
+</li>
+<li>
+<p><strong>Interactive Chart Improvements</strong>: In the Wind Direction Analysis application, when ratio mode is activated, users
+  can now view ratios as percentages via mouse hover over the chart, enhancing data interaction and readability.</p>
+</li>
+<li>
+<p><strong>Fullscreen Mode Guidance</strong>: Added a simple message in the Mesh application's full-screen mode, informing users they
+  can exit full-screen mode using the Escape key, aiming to improve user navigation and experience.</p>
+</li>
+<li>
+<p><strong>Chronology Application Feature</strong>: Introduced the ability for users to input the electrical power generated by each
+  turbine in the Chronology application. This addition enables a new data chart where users can compare noise levels
+  induced by electrical power, both globally and per wind turbine.</p>
+</li>
+<li>
+<p><strong>Chart Display Correction</strong>: Fixed an issue in the Sensitivity to Residual Noise application where the electrical
+  power chart's x-axis incorrectly displayed index values instead of the correct wind classes from 3 m/s to 12 m/s.</p>
+</li>
+</ul>
+<h4 id="acmonitor-connect">Acmonitor Connect :</h4>
+<ul>
+<li><strong>Project Application</strong>: Deployed the third sprint for user testing. Application is still not available for now. </li>
+</ul>
+<hr />
+<h2 id="february-2024">February 2024</h2>
+<h3 id="version-128">Version 1.2.8</h3>
+<h4 id="general-updates">General Updates:</h4>
+<ul>
+<li>Upgraded database architecture for enhanced performance.</li>
+<li>Refined SQL connection protocols to align with the new database structure.</li>
+</ul>
+<h4 id="acmonitor-connect-enhancements">Acmonitor Connect Enhancements:</h4>
+<ul>
+<li><strong>Wind Farm Analysis</strong>: Introduced a comprehensive wind rose, featuring both global views and segmented displays by
+  wind speed classes.</li>
+<li><strong>Project Application</strong>: Deployed the initial two sprints for user testing, laying the groundwork for future
+  development in Acmonitor Connect.</li>
+<li><strong>Device Application</strong>: Resolved numerical discrepancies in data display ratios.</li>
+</ul>
+<h4 id="eolyse-improvements_1">Eolyse Improvements:</h4>
+<ul>
+<li><strong>User Access</strong>: Tailored wind turbine library access for 'inter' and 'client' roles, ensuring appropriate
+  user-specific model filtering.</li>
+<li><strong>Map Layout</strong>: Addressed and rectified the map background layout issue in the Mesh application.</li>
+<li><strong>Mesh Center Point</strong>: Added functionality for users to specify a custom center point within the Mesh application,
+  providing greater control over mesh generation.</li>
+</ul>
+<hr />
+<h2 id="january-2024">January 2024</h2>
 <h3 id="version-127">Version 1.2.7</h3>
-<h4 id="acmonitor-connect">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_1">Acmonitor Connect</h4>
 <h5 id="device-data-app">Device data app</h5>
 <ul>
-<li><strong>Sortable Devices by Status</strong>: Easily manage your devices by sorting them according to their status. This new feature provides a quick and efficient way to organize and track the status of your devices.</li>
+<li><strong>Sortable Devices by Status</strong>: Easily manage your devices by sorting them according to their status. This new feature
+  provides a quick and efficient way to organize and track the status of your devices.</li>
 </ul>
 <h5 id="wind-farm-analysis-app">Wind Farm Analysis app</h5>
 <ul>
 <li><strong>Enhanced Data Display</strong>: Acoustic data can now be displayed for periods exceeding 15 days.</li>
 </ul>
+<hr />
 <h2 id="december-2023">December 2023</h2>
 <h3 id="version-126">Version 1.2.6</h3>
-<h4 id="acmonitor-connect_1">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_2">Acmonitor Connect</h4>
 <h5 id="device-data-app_1">Device data app</h5>
 <ul>
 <li><strong>Enhanced Data Display</strong>: Data can now be displayed for periods exceeding 15 days.</li>
 <li><strong>Search bar optimization</strong>: Our search bar is now fast and executes instantly.</li>
-<li><strong>Device Details</strong>: Now, select device button give the access of a table that display detailed information about device status and battery levels.</li>
-<li><strong>Battery information</strong>: Now you have the ability to simply select the device you're interested in and check its current battery level.</li>
+<li><strong>Device Details</strong>: Now, select device button give the access of a table that display detailed information about
+  device status and battery levels.</li>
+<li><strong>Battery information</strong>: Now you have the ability to simply select the device you're interested in and check its
+  current battery level.</li>
 </ul>
+<hr />
 <h2 id="november-2023">November 2023</h2>
 <h3 id="version-124-to-125">Version 1.2.4 to 1.2.5</h3>
-<h4 id="acmonitor-connect_2">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_3">Acmonitor Connect</h4>
 <h5 id="device-data-app_2">Device data app</h5>
 <ul>
-<li><strong>Enhanced Search Bar</strong>: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.</li>
+<li><strong>Enhanced Search Bar</strong>: The search bar has been tuned and is fully operational, allowing you to effortlessly search
+  for devices with precision.</li>
 </ul>
 <h5 id="wind-farm-analysis-app_1">Wind Farm Analysis app</h5>
 <ul>
-<li><strong>Close Button for Filters</strong>: Quickly revert to the unfiltered raw data with the new "Close" button next to the filter name. This simplifies your data exploration, making it more efficient.</li>
-<li><strong>Enhanced Search Bar</strong>: The search bar has been tuned and is fully operational, allowing you to effortlessly search for devices with precision.</li>
-<li><strong>Streamlined Filter Management</strong>: Filter parameters are now conveniently accessible through intuitive input fields, replacing dropdowns for a more user-friendly filtering experience.</li>
+<li><strong>Close Button for Filters</strong>: Quickly revert to the unfiltered raw data with the new "Close" button next to the filter
+  name. This simplifies your data exploration, making it more efficient.</li>
+<li><strong>Enhanced Search Bar</strong>: The search bar has been tuned and is fully operational, allowing you to effortlessly search
+  for devices with precision.</li>
+<li><strong>Streamlined Filter Management</strong>: Filter parameters are now conveniently accessible through intuitive input fields,
+  replacing dropdowns for a more user-friendly filtering experience.</li>
 <li><strong>Enhanced Data Visualization</strong>: Filtered data is now highlighted in a distinct color within the analysis section.</li>
 <li><strong>Data Export Options</strong>: Now, datasets can be downloaded in both CSV and Excel file formats.</li>
-<li><strong>Enhanced Time Range Visibility</strong>: We've added a convenient feature to improve your analysis experience. Now, when you hover over the "Change time range" button, the start and end times of the analysis will be displayed.</li>
-<li><strong>Download Improved results analysis Files</strong>: We've enhanced the file download feature. Now, when you download a results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for easy reference.</li>
-<li><strong>Streamlined Data Access</strong>: We've added a convenient "Close" button for a smoother user experience. When you apply a filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.</li>
-<li><strong>Filter by Acoustic Level</strong>: We've resolved a bug that was preventing users from filtering data by acoustic level. You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your wind farm analysis.</li>
+<li><strong>Enhanced Time Range Visibility</strong>: We've added a convenient feature to improve your analysis experience. Now, when
+  you hover over the "Change time range" button, the start and end times of the analysis will be displayed.</li>
+<li><strong>Download Improved results analysis Files</strong>: We've enhanced the file download feature. Now, when you download a
+  results analysis,if you've applied a filter during the analysis, the filter name is also included in the file name for
+  easy reference.</li>
+<li><strong>Streamlined Data Access</strong>: We've added a convenient "Close" button for a smoother user experience. When you apply a
+  filter to your data, you can now easily close the filter view and return to the raw analysis data with just one click.</li>
+<li><strong>Filter by Acoustic Level</strong>: We've resolved a bug that was preventing users from filtering data by acoustic level.
+  You can now effortlessly filter your data based on acoustic levels, giving you more control and insights into your
+  wind farm analysis.</li>
 </ul>
 <h5 id="upload-data-app">Upload data app</h5>
 <ul>
-<li><strong>Header Correction</strong>: We've resolved a bug that was affecting the date and time header when uploading files. The header is now called correctly.</li>
+<li><strong>Header Correction</strong>: We've resolved a bug that was affecting the date and time header when uploading files. The
+  header is now called correctly.</li>
 </ul>
+<hr />
 <h2 id="october-2023">October 2023</h2>
 <h3 id="version-120-to-123">Version 1.2.0 to 1.2.3</h3>
 <p><strong>Major update: Introduction of the Wind Farm Analysis Application in Acmonitor Connect</strong></p>
-<h4 id="acmonitor-connect_3">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_4">Acmonitor Connect</h4>
 <ul>
-<li><strong>Wind Farm Analysis app</strong>: A specialized application designed for analyzing measurements collected by the Acmonitor stations.</li>
-<li><strong>Enhanced Upload Section</strong>: The upload functionality in Acmonitor Connect now supports weather and wind time series data, allowing for seamless cloud-based analysis.</li>
-<li><strong>Devices Data upgrade</strong>: Improvements to the Devices Data application offer a more intuitive selection process for time series visualization.</li>
+<li><strong>Wind Farm Analysis app</strong>: A specialized application designed for analyzing measurements collected by the Acmonitor
+  stations.</li>
+<li><strong>Enhanced Upload Section</strong>: The upload functionality in Acmonitor Connect now supports weather and wind time series
+  data, allowing for seamless cloud-based analysis.</li>
+<li><strong>Devices Data upgrade</strong>: Improvements to the Devices Data application offer a more intuitive selection process for
+  time series visualization.</li>
 </ul>
 <h4 id="eolyse">Eolyse</h4>
 <ul>
-<li><strong>Project name creation</strong>: Users will now be prompted to avoid using special characters when creating project names, streamlining data handling.  </li>
-<li><strong>Wind direction selection</strong>: Issues related to Acventum backend's default wind direction data have been corrected, ensuring smoother operation.  </li>
-<li><strong>Custom wind turbine and direct usage</strong>: Previously, custom wind turbines added by users were not immediately available for use. This has been addressed; Eolyse now scans for available turbines each time a new calculation is initiated.  </li>
+<li><strong>Project name creation</strong>: Users will now be prompted to avoid using special characters when creating project names,
+  streamlining data handling.</li>
+<li><strong>Wind direction selection</strong>: Issues related to Acventum backend's default wind direction data have been corrected,
+  ensuring smoother operation.</li>
+<li><strong>Custom wind turbine and direct usage</strong>: Previously, custom wind turbines added by users were not immediately
+  available for use. This has been addressed; Eolyse now scans for available turbines each time a new calculation is
+  initiated.</li>
 </ul>
 <hr />
 <h2 id="september-2023">September 2023</h2>
@@ -246,13 +357,17 @@
 <ul>
 <li><strong>New URL</strong>: Now operates under our company's domain name for a more cohesive brand experience.</li>
 <li><strong>UI Overhaul</strong>: A simplified and intuitive user interface to improve user experience.</li>
-<li><strong>User Management Update</strong>: Distinguish between internal users and clients, with the ability to specify account access permissions.</li>
-<li><strong>Cloud Architecture Update</strong>: Transitioned to a new architecture with separate frontend and backend servers for optimized calculations on Google Cloud.</li>
-<li><strong>Enhanced Documentation</strong>: Moved to GitHub Pages, offering more comprehensive guidance compared to the previous Monday documentation.</li>
+<li><strong>User Management Update</strong>: Distinguish between internal users and clients, with the ability to specify account access
+  permissions.</li>
+<li><strong>Cloud Architecture Update</strong>: Transitioned to a new architecture with separate frontend and backend servers for
+  optimized calculations on Google Cloud.</li>
+<li><strong>Enhanced Documentation</strong>: Moved to GitHub Pages, offering more comprehensive guidance compared to the previous
+  Monday documentation.</li>
 </ul>
 <h4 id="eolyse_1">Eolyse</h4>
 <ul>
-<li><strong>Wind Turbine Library</strong>: Users can consult our extensive wind turbine library with improved data visualization and even add their own personalized wind turbine models.</li>
+<li><strong>Wind Turbine Library</strong>: Users can consult our extensive wind turbine library with improved data visualization and
+  even add their own personalized wind turbine models.</li>
 <li><strong>API Maps Elevation</strong>: Significant improvements in calculation time. Elevation data is now available worldwide.</li>
 <li><strong>Export Format</strong>: New export format available in Delhom-branded Excel sheets for easy data extraction.</li>
 <li><strong>Simulation History</strong>: Simplified tracking of past calculations across different applications.</li>
@@ -264,20 +379,29 @@
 <h3 id="version-106">Version 1.0.6</h3>
 <h4 id="general-cloudb-features_1">General CloudB Features</h4>
 <ul>
-<li><strong>User Management Service Upgrade</strong> : we have upgraded our user management service by integrating a Redis server. This enhancement is expected to eliminate instances of unanticipated logouts. Users can now enjoy a more seamless and uninterrupted experience.</li>
-<li><strong>Cloud Run instance Upgrade</strong> : to provide a robust infrastructure for handling concurrent requests, we have upgraded our Cloud Run Station from 512 MB RAM and 1 CPU to 8 GB RAM and 4 CPUs. This substantial upgrade allows us to increase the number of workers from 1 to 9, thereby significantly improving our capacity to manage simultaneous requests. You should notice a faster response time and improved system performance.</li>
+<li><strong>User Management Service Upgrade</strong> : we have upgraded our user management service by integrating a Redis server. This
+  enhancement is expected to eliminate instances of unanticipated logouts. Users can now enjoy a more seamless and
+  uninterrupted experience.</li>
+<li><strong>Cloud Run instance Upgrade</strong> : to provide a robust infrastructure for handling concurrent requests, we have upgraded
+  our Cloud Run Station from 512 MB RAM and 1 CPU to 8 GB RAM and 4 CPUs. This substantial upgrade allows us to increase
+  the number of workers from 1 to 9, thereby significantly improving our capacity to manage simultaneous requests. You
+  should notice a faster response time and improved system performance.</li>
 </ul>
 <h4 id="eolyse_2">Eolyse:</h4>
-<p>We've addressed a crucial issue in the Eolyse workspace concerning the Chronologies app. Previously, users experienced problems with wind turbine model calculations due to model confusion. This patch fixes that issue, allowing users to perform their calculations without any model mix-up.</p>
+<p>We've addressed a crucial issue in the Eolyse workspace concerning the Chronologies app. Previously, users experienced
+problems with wind turbine model calculations due to model confusion. This patch fixes that issue, allowing users to
+perform their calculations without any model mix-up.</p>
 <hr />
 <h2 id="april-2023">April 2023</h2>
 <h3 id="version-103-to-105">Version 1.0.3 to 1.0.5</h3>
 <h4 id="eolyse_3">Eolyse</h4>
 <ul>
-<li><strong>Patch</strong> : Eolyse apps now replace default NaN elevation by 0 in the calculation. Minor patch to fix issues with dataset semicolon issue in app standard : added a round method in app standard data table display. Fixed CSV import separator issue with semicolon. Fixed CSV import source modeling dropdown filtering.</li>
+<li><strong>Patch</strong> : Eolyse apps now replace default NaN elevation by 0 in the calculation. Minor patch to fix issues with
+  dataset semicolon issue in app standard : added a round method in app standard data table display. Fixed CSV import
+  separator issue with semicolon. Fixed CSV import source modeling dropdown filtering.</li>
 <li><strong>Simulation upgrade</strong> : simulation can now be renamed, duplicated or deleted.</li>
 </ul>
-<h4 id="acmonitor-connect_4">Acmonitor Connect</h4>
+<h4 id="acmonitor-connect_5">Acmonitor Connect</h4>
 <ul>
 <li><strong>Updates</strong> : plot line type changed from continuous to dot for non-equivalent acoustic data.</li>
 </ul>
@@ -286,7 +410,8 @@
 <h3 id="version-100-to-102">Version 1.0.0 to 1.0.2</h3>
 <h4 id="eolyse_4">Eolyse</h4>
 <ul>
-<li><strong>Patch</strong> : Acventum and AcventumTimeSeries can now decode CSV files with ; separator. Projects can now be created normally on Eolyse</li>
+<li><strong>Patch</strong> : Acventum and AcventumTimeSeries can now decode CSV files with ; separator. Projects can now be created
+  normally on Eolyse</li>
 </ul>
               
             </div>

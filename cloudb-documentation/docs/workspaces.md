@@ -466,24 +466,27 @@ views for a spatial understanding of projects and devices, enhancing the interac
 details and device statuses directly on the map. With robust user management capabilities, "Project" ensures secure 
 and role-specific access, allowing project owners to control data visibility and modification permissions effectively.
 
-1. **Project and Device Management**:
+#### Project and Device Management:
+
    - **Creating and Managing Projects**: Users can initiate new projects by specifying names, descriptions, locations, 
    and uploading images. Projects can be edited or deleted as per ongoing requirements.
    - **Adding and Modifying Devices**: Devices used for measurements can be added to projects with specific location 
-   details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
+   - details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
    and make modifications or delete devices as needed.
-   - 
-2. **Data Interaction**:
+#### Data Interaction:
+
    - **Visualization**: Users can select individual devices to access a detailed data visualization panel, which 
    provides insights within chosen time ranges.
    - **Data Download**: For deeper analysis or record-keeping, data can be downloaded directly from the app in CSV 
    format.
 
-3. **Map Integration**:
+#### Map Integration:
+
    - **Interactive Map Display**: Both projects and devices are plotted on an interactive map, with hover-over details 
    revealing names. This feature aids in quickly locating and distinguishing projects and their associated devices.
 
-4. **User Management and Access Control**:
+#### User Management and Access Control:
+
    - **User Roles and Permissions**: The app supports diverse user roles, including Owners and Viewers. Owners have 
    comprehensive control over projects and devices, capable of making any modifications. Viewers have access to view 
    all device data and project details, ensuring transparency without compromising control.
