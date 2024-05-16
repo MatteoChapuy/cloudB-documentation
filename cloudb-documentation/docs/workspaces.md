@@ -487,9 +487,65 @@ and role-specific access, allowing project owners to control data visibility and
 
 #### User Management and Access Control:
 
-   - **User Roles and Permissions**: The app supports diverse user roles, including Owners and Viewers. Owners have 
-   comprehensive control over projects and devices, capable of making any modifications. Viewers have access to view 
-   all device data and project details, ensuring transparency without compromising control.
+   - **User Roles and Permissions**: The app supports diverse user roles, including Administrator, Owners and Viewers. 
+   Administrator and Owners have comprehensive control over projects and devices, capable of making any modifications. 
+   Viewers have access to view all device data and project details, ensuring transparency without compromising control.
+
+#### Getting Started with "Project" App:
+##### Creating a New Project:
+   1. Click on the "Create project" button.
+   2. Fill in the project name and description. 
+   3. Specify the geographical location of the project using coordinates.
+   4. Upload an image for your project (only one image can be added)
+   5. Click "Create" to create the project.
+##### Editing a Project:
+   1. In the project table, click on the "Modify" button for the project that you wish to edit.
+   2. Modify the necessary details.
+   3. Save the changes.
+##### Deleting a Project:
+   1. In the project table, click on the "Delete" button for the project that you wish to delete.
+   2. Confirm the deletion.
+##### Add Devices:
+   1. In the project table, click on the project name of the project that you wish to visualize.
+   2. Go to the "Devices" section.
+   3. Click on the "Add / Modify Device" button.
+   4. Enter device details such as name, geographical location, and date range.
+   5. Click "Validate" to add the device.
+##### Modifying Device Details:
+   1. Click on the "Add / Modify Device" button.
+   2. Choose the device that you want to edit.
+   3. Update the necessary details.
+   4. Click "Validate" to modify the device.
+##### Delete a Device:
+   1. In the device table, click on the "Delete" button for the device that you wish to delete.
+   2. Confirm the deletion.
+##### Visualizing Data:
+   1. In the device table, click on the device name that you wish to visualize.
+   2. Select the indicator that you want to visualize.
+   3. Select the time range. 
+   4. Click "Display data" button.
+   5. Use various visualization tools provided to gain insights from the data.
+##### Downloading Data:
+   1. Click on the "Download as CSV" button.
+   2. The data will be downloaded in CSV format for further analysis.
+##### Interactive Map Usage:
+   1. In the project table, click on the project name of the project that you wish to visualize.
+   2. Use the map to view the locations of project and devices.
+   3. Hover over points on the map to see names.
+##### Adding a User:
+   1. In the project table, click on the project name of the project that you wish to visualize.
+   2. As an administrator or owner, go to the "Users" section.
+   3. Click on the "Add / Modify User" button.
+   4. Enter user details such as email address and assigning appropriate roles (Owner or Viewer).
+   5. Click "Validate" to add the user.
+##### Modify User's Role:
+   1. Click on the "Add / Modify User" button.
+   2. Choose the email of the user whose role you want to edit.
+   3. Update the role.
+   4. Click "Validate" to update the user's role.
+##### Deleting a User:
+   1. In the user's table, click on the "Delete" button for the user that you wish to delete.
+   2. Confirm the deletion.
 
 
 ### Wind Farm Analysis
