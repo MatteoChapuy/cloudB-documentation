@@ -496,7 +496,7 @@ and role-specific access, allowing project owners to control data visibility and
    1. Click on the "Create project" button.
    2. Fill in the project name and description. 
    3. Specify the geographical location of the project using coordinates.
-   4. Upload an image for your project (only one image can be added)
+   4. Upload an image for your project (only one image can be added).
    5. Click "Create" to create the project.
 ##### Editing a Project:
    1. In the project table, click on the "Modify" button for the project that you wish to edit.
