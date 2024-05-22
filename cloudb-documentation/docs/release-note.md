@@ -5,6 +5,18 @@ have been added to CloudB over the course of the year.
 
 ---
 
+## May 2024
+
+### Version 1.3.0
+
+**Major update: Introduction of the Project Application in Acmonitor Connect.**
+
+#### Acmonitor Connect :
+
+- **Project Application**: Deployed the Alpha version. The application is available now for internal use. 
+
+---
+
 ## March 2024
 
 ### Version 1.2.9
