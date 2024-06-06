@@ -471,7 +471,7 @@ and role-specific access, allowing project owners to control data visibility and
    - **Creating and Managing Projects**: Users can initiate new projects by specifying names, descriptions, locations, 
    and uploading images. Projects can be edited or deleted as per ongoing requirements.
    - **Adding and Modifying Devices**: Devices used for measurements can be added to projects with specific location 
-   - details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
+   details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
    and make modifications or delete devices as needed.
 #### Data Interaction:
 
