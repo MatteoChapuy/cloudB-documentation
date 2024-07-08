@@ -468,11 +468,13 @@ and role-specific access, allowing project owners to control data visibility and
 
 #### Project and Device Management:
 
-   - **Creating and Managing Projects**: Users can initiate new projects by specifying names, descriptions, locations, 
-   and uploading images. Projects can be edited or deleted as per ongoing requirements.
+   - **Creating and Managing Projects**: Users can initiate new projects by specifying names (including special 
+   characters), descriptions, locations, and uploading images. Projects can be edited or deleted as per ongoing 
+   requirements. Project dates are now automatically calculated based on the minimum and maximum dates of all 
+   associated stations.
    - **Adding and Modifying Devices**: Devices used for measurements can be added to projects with specific location 
-   details and operational ranges. Users can view the State of Health (SOH) and battery levels of each device, 
-   and make modifications or delete devices as needed.
+   details and operational ranges. Users can now name measurement points, upload and view images for each device, 
+   and see the State of Health (SOH) and battery levels. Users can also modify or delete devices as needed.
 #### Data Interaction:
 
    - **Visualization**: Users can select individual devices to access a detailed data visualization panel, which 
@@ -509,7 +511,7 @@ and role-specific access, allowing project owners to control data visibility and
    1. In the project table, click on the project name of the project that you wish to visualize.
    2. Go to the "Devices" section.
    3. Click on the "Add / Modify Device" button.
-   4. Enter device details such as name, geographical location, and date range.
+   4. Enter device details such as name, measurement point name, geographical location, date range, and upload an image.
    5. Click "Validate" to add the device.
 ##### Modifying Device Details:
    1. Click on the "Add / Modify Device" button.
