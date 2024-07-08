@@ -5,6 +5,22 @@ have been added to CloudB over the course of the year.
 
 ---
 
+## July 2024
+
+### Version 1.3.1
+
+#### Acmonitor Connect :
+
+- **Measurement Point Name Field**: Added a new input field for naming measurement points. 
+- **Special Characters in Project Names:**: Enabled the use of special characters in project names. 
+- **Project View for Admins:**: Modified view rules so that admins of CloudB can now see all projects.
+- **Data Display Indicator:**: Added an indicator to show the percentage of data displayed.
+- **Project Date Calculation:**: Updated project dates to be based on the minimum and maximum dates of all associated stations.
+- **Battery Charts:**: Added battery status charts for each measurement point.
+- **Device Images:**: Integrated images for devices to enhance visual representation.
+
+---
+
 ## May 2024
 
 ### Version 1.3.0
