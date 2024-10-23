@@ -5,6 +5,18 @@ have been added to CloudB over the course of the year.
 
 ---
 
+## October 2024
+
+### Version 1.3.2
+
+**Major update: Launch of the Norsonic Data Converter app within the Toolbox workspace.**
+
+#### Norsonic Data Converter :
+
+- The application is available now for internal use. 
+
+---
+
 ## July 2024
 
 ### Version 1.3.1
