@@ -152,7 +152,9 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#project">Project</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#project-and-device-management">Project and Device Management:</a>
+    <li class="toctree-l4"><a class="reference internal" href="#project-management_1">Project Management:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#device-management">Device Management:</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#data-interaction">Data Interaction:</a>
     </li>
@@ -699,15 +701,23 @@ collection, view detailed device data, and download this data in a user-friendly
 views for a spatial understanding of projects and devices, enhancing the interactive experience by displaying project 
 details and device statuses directly on the map. With robust user management capabilities, "Project" ensures secure 
 and role-specific access, allowing project owners to control data visibility and modification permissions effectively.</p>
-<h4 id="project-and-device-management">Project and Device Management:</h4>
+<h4 id="project-management_1">Project Management:</h4>
 <ul>
 <li><strong>Creating and Managing Projects</strong>: Users can initiate new projects by specifying names (including special 
    characters), descriptions, locations, and uploading images. Projects can be edited or deleted as per ongoing 
    requirements. Project dates are now automatically calculated based on the minimum and maximum dates of all 
    associated stations.</li>
+<li><strong>Project Date Sorting</strong>: Projects can now be sorted by date within the project table.</li>
+<li><strong>Project owner Column</strong>: The project table now includes a “Project owner” column, displaying the project owner 
+   assigned to each project.</li>
+</ul>
+<h4 id="device-management">Device Management:</h4>
+<ul>
 <li><strong>Adding and Modifying Devices</strong>: Devices used for measurements can be added to projects with specific location 
    details and operational ranges. Users can now name measurement points, upload and view images for each device, 
    and see the State of Health (SOH) and battery levels. Users can also modify or delete devices as needed.</li>
+<li><strong>Device Table Ordering</strong>: Devices in the project table are now automatically sorted by the device name in 
+   alphanumeric order.</li>
 </ul>
 <h4 id="data-interaction">Data Interaction:</h4>
 <ul>
@@ -720,12 +730,16 @@ and role-specific access, allowing project owners to control data visibility and
 <ul>
 <li><strong>Interactive Map Display</strong>: Both projects and devices are plotted on an interactive map, with hover-over details 
    revealing names. This feature aids in quickly locating and distinguishing projects and their associated devices.</li>
+<li><strong>Station Status Color</strong>: The color of each station on the map now reflects its current status, offering a visual 
+   indicator of operational conditions.</li>
 </ul>
 <h4 id="user-management-and-access-control">User Management and Access Control:</h4>
 <ul>
 <li><strong>User Roles and Permissions</strong>: The app supports diverse user roles, including Administrator, Owners and Viewers. 
    Administrator and Owners have comprehensive control over projects and devices, capable of making any modifications. 
    Viewers have access to view all device data and project details, ensuring transparency without compromising control.</li>
+<li><strong>Company-Wide Viewer Access</strong>: All company employees are now automatically added as viewers in each project, 
+   ensuring visibility across projects.</li>
 </ul>
 <h4 id="getting-started-with-project-app">Getting Started with "Project" App:</h4>
 <h5 id="creating-a-new-project">Creating a New Project:</h5>
