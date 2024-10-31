@@ -466,15 +466,24 @@ views for a spatial understanding of projects and devices, enhancing the interac
 details and device statuses directly on the map. With robust user management capabilities, "Project" ensures secure 
 and role-specific access, allowing project owners to control data visibility and modification permissions effectively.
 
-#### Project and Device Management:
+#### Project Management:
 
    - **Creating and Managing Projects**: Users can initiate new projects by specifying names (including special 
    characters), descriptions, locations, and uploading images. Projects can be edited or deleted as per ongoing 
    requirements. Project dates are now automatically calculated based on the minimum and maximum dates of all 
    associated stations.
+   - **Project Date Sorting**: Projects can now be sorted by date within the project table.
+   - **Project owner Column**: The project table now includes a “Project owner” column, displaying the project owner 
+   assigned to each project.
+
+#### Device Management:
+
    - **Adding and Modifying Devices**: Devices used for measurements can be added to projects with specific location 
    details and operational ranges. Users can now name measurement points, upload and view images for each device, 
    and see the State of Health (SOH) and battery levels. Users can also modify or delete devices as needed.
+   - **Device Table Ordering**: Devices in the project table are now automatically sorted by the device name in 
+   alphanumeric order.
+
 #### Data Interaction:
 
    - **Visualization**: Users can select individual devices to access a detailed data visualization panel, which 
@@ -486,12 +495,16 @@ and role-specific access, allowing project owners to control data visibility and
 
    - **Interactive Map Display**: Both projects and devices are plotted on an interactive map, with hover-over details 
    revealing names. This feature aids in quickly locating and distinguishing projects and their associated devices.
+   - **Station Status Color**: The color of each station on the map now reflects its current status, offering a visual 
+   indicator of operational conditions.
 
 #### User Management and Access Control:
 
    - **User Roles and Permissions**: The app supports diverse user roles, including Administrator, Owners and Viewers. 
    Administrator and Owners have comprehensive control over projects and devices, capable of making any modifications. 
    Viewers have access to view all device data and project details, ensuring transparency without compromising control.
+   - **Company-Wide Viewer Access**: All company employees are now automatically added as viewers in each project, 
+   ensuring visibility across projects.
 
 #### Getting Started with "Project" App:
 ##### Creating a New Project:

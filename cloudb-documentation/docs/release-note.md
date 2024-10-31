@@ -7,6 +7,25 @@ have been added to CloudB over the course of the year.
 
 ## October 2024
 
+### Version 1.3.3
+
+#### Acmonitor Connect :
+
+##### Project app :
+- **Project Date Sorting**: Projects can now be sorted by date within the project table.
+- **Project owner Column**: A new “Project owner” column has been added to the project table, displaying  the project 
+owner assigned to each project. 
+- **Company-Wide Viewer Access**: All company employees are now automatically added as viewers in each project, 
+ensuring full visibility across the organization. 
+- **Device Table Ordering**: Devices in the project table are now automatically sorted by the device name in 
+alphanumeric order.
+- **Station Status Color**: The station markers on the map now reflect the current status color of each station, 
+visually indicating operational conditions.
+
+---
+
+## October 2024
+
 ### Version 1.3.2
 
 **Major update: Launch of the Norsonic Data Converter app within the Toolbox workspace.**
