@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Acmonitor Connect - User Documentation - CloudB Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Acmonitor Connect - User Documentation";
+        var mkdocs_page_input_path = "acmonitor-connect.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> CloudB Documentation
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">CloudB-documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../eolyse/">Eolyse - User Documentation</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Acmonitor Connect - User Documentation</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction-to-acmonitor-connect">Introduction to Acmonitor Connect</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#device-data">Device Data</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project">Project</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#project-management">Project Management:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#device-management">Device Management:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#data-interaction">Data Interaction:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#map-integration">Map Integration:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-management-and-access-control">User Management and Access Control:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#getting-started-with-project-app">Getting Started with "Project" App:</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#creating-a-new-project">Creating a New Project:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#editing-a-project">Editing a Project:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#deleting-a-project">Deleting a Project:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#add-devices">Add Devices:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#modifying-device-details">Modifying Device Details:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#delete-a-device">Delete a Device:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#visualizing-data">Visualizing Data:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#downloading-data">Downloading Data:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#interactive-map-usage">Interactive Map Usage:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#adding-a-user">Adding a User:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#modify-users-role">Modify User's Role:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#deleting-a-user">Deleting a User:</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wind-farm-analysis">Wind Farm Analysis</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#dataset-view">Dataset view</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#analysis-view">Analysis View</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#upload-data">Upload Data</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../toolbox/">Toolbox - User Documentation</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/">Troubleshooting</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../release-note/">Release Notes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">CloudB Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Acmonitor Connect - User Documentation</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="acmonitor-connect-user-documentation">Acmonitor Connect - User Documentation</h1>
+<h2 id="introduction-to-acmonitor-connect">Introduction to Acmonitor Connect</h2>
+<p>Acmonitor Connect is a dedicated workspace focused on acoustic measurements and their subsequent analysis. Initially developed as an IoT (Internet of Things) platform, it displayed real-time acoustic measurements from connected devices. The workspace has since evolved to facilitate advanced analysis calculations, not just on data from IoT devices received through MQTT, but also on datasets uploaded by the user.</p>
+<h2 id="device-data">Device Data</h2>
+<p>In this application, users can request and view real-time measurements from connected acoustic monitoring systems. This functionality is essential for those who need immediate and live data to make informed decisions on-the-spot.
+The Device Data application allows users to request real-time measurements from connected acoustic monitoring systems.   </p>
+<p>Below is a step-by-step guide on how to use this feature:</p>
+<ol>
+<li>
+<p><strong>Select a Device</strong>: Click the orange "Select device" button located at the top left corner of the page to choose the device you want to query.</p>
+</li>
+<li>
+<p><strong>Choose a Time-zone</strong>: As all data are stored in UTC, users must select their time-zone to convert the request date and time. Currently, only UTC, UTC+1, and UTC+2 are available options for conversion.</p>
+</li>
+<li>
+<p><strong>Select Date and Time Range</strong>: Choose the start date and time as well as the end date and time, factoring in your chosen time-zone.</p>
+</li>
+<li>
+<p><strong>Pick an Acoustic Parameter</strong>: Our monitoring stations can measure multiple parameters. Users need to select the specific parameter they are interested in viewing. Note that the availability of certain parameters depends on the station's configuration, but LAeq is always an available option.</p>
+</li>
+<li>
+<p><strong>Run the Request</strong>: Upon completing the previous steps, run the request. If data can be located, a time-series graph should appear on the screen.</p>
+</li>
+<li>
+<p><strong>Download Data</strong>: Users have the option to download the displayed data by clicking on the "Download" button. The data will be downloaded as a CSV file.</p>
+</li>
+<li>
+<p><strong>View Battery Data</strong>: Navigate to another tab within the application to check the battery status of the selected monitoring station.</p>
+</li>
+<li>
+<p><strong>Erase and Restart</strong>: To initiate a new data request, the existing graph must be erased. Navigate back to the main screen and start a new query following steps 1 to 7.</p>
+</li>
+</ol>
+<p>By following these steps, users can effectively query, view, and download real-time acoustic data from connected monitoring systems.</p>
+<h2 id="project">Project</h2>
+<p>Project is a versatile application designed to streamline project management and data visualization. It facilitates 
+the creation and management of acoustic projects, offering tools to input and edit essential project details such 
+as names, descriptions, geographical data, and images. Users can also manage measurement devices crucial for data 
+collection, view detailed device data, and download this data in a user-friendly CSV format. The app integrates map 
+views for a spatial understanding of projects and devices, enhancing the interactive experience by displaying project 
+details and device statuses directly on the map. With robust user management capabilities, "Project" ensures secure 
+and role-specific access, allowing project owners to control data visibility and modification permissions effectively.</p>
+<h3 id="project-management">Project Management:</h3>
+<ul>
+<li><strong>Creating and Managing Projects</strong>: Users can initiate new projects by specifying names (including special 
+   characters), descriptions, locations, and uploading images. Projects can be edited or deleted as per ongoing 
+   requirements. Project dates are now automatically calculated based on the minimum and maximum dates of all 
+   associated stations.</li>
+<li><strong>Project Date Sorting</strong>: Projects can now be sorted by date within the project table.</li>
+<li><strong>Project owner Column</strong>: The project table now includes a “Project owner” column, displaying the project owner 
+   assigned to each project.</li>
+</ul>
+<h3 id="device-management">Device Management:</h3>
+<ul>
+<li><strong>Adding and Modifying Devices</strong>: Devices used for measurements can be added to projects with specific location 
+   details and operational ranges. Users can now name measurement points, upload and view images for each device, 
+   and see the State of Health (SOH) and battery levels. Users can also modify or delete devices as needed.</li>
+<li><strong>Device Table Ordering</strong>: Devices in the project table are now automatically sorted by the device name in 
+   alphanumeric order.</li>
+</ul>
+<h3 id="data-interaction">Data Interaction:</h3>
+<ul>
+<li><strong>Visualization</strong>: Users can select individual devices to access a detailed data visualization panel, which 
+   provides insights within chosen time ranges.</li>
+<li><strong>Data Download</strong>: For deeper analysis or record-keeping, data can be downloaded directly from the app in CSV 
+   format.</li>
+</ul>
+<h3 id="map-integration">Map Integration:</h3>
+<ul>
+<li><strong>Interactive Map Display</strong>: Both projects and devices are plotted on an interactive map, with hover-over details 
+   revealing names. This feature aids in quickly locating and distinguishing projects and their associated devices.</li>
+<li><strong>Station Status Color</strong>: The color of each station on the map now reflects its current status, offering a visual 
+   indicator of operational conditions.</li>
+</ul>
+<h3 id="user-management-and-access-control">User Management and Access Control:</h3>
+<ul>
+<li><strong>User Roles and Permissions</strong>: The app supports diverse user roles, including Administrator, Owners and Viewers. 
+   Administrator and Owners have comprehensive control over projects and devices, capable of making any modifications. 
+   Viewers have access to view all device data and project details, ensuring transparency without compromising control.</li>
+<li><strong>Company-Wide Viewer Access</strong>: All company employees are now automatically added as viewers in each project, 
+   ensuring visibility across projects.</li>
+</ul>
+<h3 id="getting-started-with-project-app">Getting Started with "Project" App:</h3>
+<h4 id="creating-a-new-project">Creating a New Project:</h4>
+<ol>
+<li>Click on the "Create project" button.</li>
+<li>Fill in the project name and description. </li>
+<li>Specify the geographical location of the project using coordinates.</li>
+<li>Upload an image for your project (only one image can be added).</li>
+<li>Click "Create" to create the project.</li>
+</ol>
+<h4 id="editing-a-project">Editing a Project:</h4>
+<ol>
+<li>In the project table, click on the "Modify" button for the project that you wish to edit.</li>
+<li>Modify the necessary details.</li>
+<li>Save the changes.</li>
+</ol>
+<h4 id="deleting-a-project">Deleting a Project:</h4>
+<ol>
+<li>In the project table, click on the "Delete" button for the project that you wish to delete.</li>
+<li>Confirm the deletion.</li>
+</ol>
+<h4 id="add-devices">Add Devices:</h4>
+<ol>
+<li>In the project table, click on the project name of the project that you wish to visualize.</li>
+<li>Go to the "Devices" section.</li>
+<li>Click on the "Add / Modify Device" button.</li>
+<li>Enter device details such as name, measurement point name, geographical location, date range, and upload an image.</li>
+<li>Click "Validate" to add the device.</li>
+</ol>
+<h4 id="modifying-device-details">Modifying Device Details:</h4>
+<ol>
+<li>Click on the "Add / Modify Device" button.</li>
+<li>Choose the device that you want to edit.</li>
+<li>Update the necessary details.</li>
+<li>Click "Validate" to modify the device.</li>
+</ol>
+<h4 id="delete-a-device">Delete a Device:</h4>
+<ol>
+<li>In the device table, click on the "Delete" button for the device that you wish to delete.</li>
+<li>Confirm the deletion.</li>
+</ol>
+<h4 id="visualizing-data">Visualizing Data:</h4>
+<ol>
+<li>In the device table, click on the device name that you wish to visualize.</li>
+<li>Select the indicator that you want to visualize.</li>
+<li>Select the time range. </li>
+<li>Click "Display data" button.</li>
+<li>Use various visualization tools provided to gain insights from the data.</li>
+</ol>
+<h4 id="downloading-data">Downloading Data:</h4>
+<ol>
+<li>Click on the "Download as CSV" button.</li>
+<li>The data will be downloaded in CSV format for further analysis.</li>
+</ol>
+<h4 id="interactive-map-usage">Interactive Map Usage:</h4>
+<ol>
+<li>In the project table, click on the project name of the project that you wish to visualize.</li>
+<li>Use the map to view the locations of project and devices.</li>
+<li>Hover over points on the map to see names.</li>
+</ol>
+<h4 id="adding-a-user">Adding a User:</h4>
+<ol>
+<li>In the project table, click on the project name of the project that you wish to visualize.</li>
+<li>As an administrator or owner, go to the "Users" section.</li>
+<li>Click on the "Add / Modify User" button.</li>
+<li>Enter user details such as email address and assigning appropriate roles (Owner or Viewer).</li>
+<li>Click "Validate" to add the user.</li>
+</ol>
+<h4 id="modify-users-role">Modify User's Role:</h4>
+<ol>
+<li>Click on the "Add / Modify User" button.</li>
+<li>Choose the email of the user whose role you want to edit.</li>
+<li>Update the role.</li>
+<li>Click "Validate" to update the user's role.</li>
+</ol>
+<h4 id="deleting-a-user">Deleting a User:</h4>
+<ol>
+<li>In the user's table, click on the "Delete" button for the user that you wish to delete.</li>
+<li>Confirm the deletion.</li>
+</ol>
+<h2 id="wind-farm-analysis">Wind Farm Analysis</h2>
+<p>The Wind Farm Analysis application is designed to offer comprehensive analysis based on acoustic and meteorological measurements. It allows users to conduct in-depth studies on wind farm noise impacts, utilizing either real-time data or historical datasets. The application is divided into two primary views:</p>
+<h3 id="dataset-view">Dataset view</h3>
+<p>This view offers data visualizations based on the datasets selected for analysis.</p>
+<p>Data Sources: A dataset is composed of two sources: the acoustic source and the meteorological source.
+- Acoustic Source: Provided by Acmonitor stations, which gather acoustic data and store them in our cloud as IoT devices. These are directly accessible within the platform.
+- Meteorological Source: Provided by the user in the form of a CSV file through the Upload Data section. The file should contain time series data on wind velocity, wind direction, temperature, humidity, and wind farm operating modes.</p>
+<p>Creating a New Analysis: By clicking the "Analysis" button, users can select their two data sources for analysis. Data sources can later be updated using the "Data Source" button.</p>
+<p>Filters: The "Filter" button allows users to refine the dataset based on specific criteria such as time period, acoustic levels, wind velocity, wind direction, and rain.</p>
+<h3 id="analysis-view">Analysis View</h3>
+<p>Calculations: This view initiates the calculations based on the French standard analysis described in the acoustic measurement protocol of June 2023.</p>
+<p>Results: Users can access visualizations and compliance results related to the measurements.</p>
+<h2 id="upload-data">Upload Data</h2>
+<p>The Upload Data application is a utility tool designed to enable users to upload their acoustic and meteorological datasets. These datasets can then be used for analysis in the 'Wind Farm Analysis' application, providing a seamless and integrated experience. The Upload Data application has recently been updated with several new features:</p>
+<ul>
+<li>
+<p>Data Archiving: Users can archive their upload data by downloading template files. This makes it easier to maintain and manage multiple datasets.</p>
+</li>
+<li>
+<p>Wind Data Standardization: During the upload process, users have the option to indicate whether their wind data is already standardized. If Yes: No additional action is needed. If No: Users can provide the height of the measurement point, and the code will automatically standardize the data for the user.</p>
+</li>
+<li>
+<p>Cloud Storage: All uploaded datasets are securely stored on the cloud and are accessible to the user.</p>
+</li>
+<li>
+<p>Data Management: Users can manage their stored datasets directly within the Upload Data application. This includes the ability to remove datasets if they are no longer needed.</p>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../eolyse/" class="btn btn-neutral float-left" title="Eolyse - User Documentation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../toolbox/" class="btn btn-neutral float-right" title="Toolbox - User Documentation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../eolyse/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../toolbox/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
