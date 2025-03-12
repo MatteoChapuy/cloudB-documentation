@@ -93,9 +93,6 @@ alphanumeric order.
 - **Station Status Color**: The station markers on the map now reflect the current status color of each station, 
 visually indicating operational conditions.
 
----
-
-## October 2024
 
 ### Version 1.3.2
 

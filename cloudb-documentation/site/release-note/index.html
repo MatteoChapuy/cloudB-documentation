@@ -70,6 +70,22 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Release Notes</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#march-2025">March 2025</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#version-140-143">Version 1.4.0 - 1.4.3</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#general-updates">General Updates:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#noise-impact-module-updates">Noise Impact Module Updates:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#wind-direction-analysis-wda-updates">Wind Direction Analysis (WDA) Updates:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#eolyse-module-updates">Eolyse Module Updates:</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#october-2024">October 2024</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-133">Version 1.3.3</a>
@@ -126,7 +142,7 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#version-128">Version 1.2.8</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#general-updates">General Updates:</a>
+    <li class="toctree-l4"><a class="reference internal" href="#general-updates_1">General Updates:</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#acmonitor-connect-enhancements">Acmonitor Connect Enhancements:</a>
     </li>
@@ -254,6 +270,77 @@
 <p>Welcome to the CloudB Release Notes! In this document, we'll highlight the new features, fixes, and optimizations that
 have been added to CloudB over the course of the year.</p>
 <hr />
+<h2 id="march-2025">March 2025</h2>
+<h3 id="version-140-143">Version 1.4.0 - 1.4.3</h3>
+<h4 id="general-updates">General Updates:</h4>
+<ul>
+<li>Changed simulation module selection to be included in the settings menu option.</li>
+<li>Updated settings menu option component.</li>
+<li>Added the module name in the title with project and simulation for clarity.</li>
+<li>Created a new module "Map" and removed the map layout from the other simulation modules.</li>
+<li>Renamed the "Standard" module to "Classic Noise Impact" (CNI).</li>
+<li>Fixed the custom operating modes generation in CNI using Acventum tiers model.</li>
+<li>Removed custom operating modes generation for WDA using Acventum tiers model.</li>
+<li>Fixed backend Acventum tiers run method to actually use Acventum tier model.</li>
+<li>Changed simulation creation name to allow letters, numbers, spaces, hyphens (-), and underscores (_).</li>
+<li>Updated usage of dcc.Store to cache <code>simulation_id</code> and <code>project_id</code>. Now, information is cached in the Redis session server-side.</li>
+<li>Improved function simplicity and layout in the creation of sources and receivers accordion callback.</li>
+<li>Added a lock on the simulation layout when no simulation is selected.</li>
+<li>Updated simulation and project title in the header to include the acoustic model in use and simulation module.</li>
+<li>Locked simulation module in settings menu when no simulation is active.</li>
+<li>Fixed wind turbine perimeter calculation.</li>
+<li>Added the items (sources and receivers) IDs in the accordion.</li>
+</ul>
+<h4 id="noise-impact-module-updates">Noise Impact Module Updates:</h4>
+<ul>
+<li>Updated calculation history to include more information about the last calculation.</li>
+<li>Removed project and simulation ID storage in <code>dcc.Store</code> and moved it to server-side cache (Redis) for the Noise Impact module.</li>
+<li>Changed attenuation chart "Adetail" to display in stack mode instead of group mode.</li>
+<li>Updated backend endpoint to work with both model names: "Acventum global" and "Acventum tiers".</li>
+<li>Changed attenuation tab layout to generate chart radio item options on page creation.</li>
+<li>Changed compliance threshold limits for the Noise Impact module (both models). Now allows setting ambient noise in range 0-100 dB and noise impact in range 0-35 dB.</li>
+<li>Updated noise impact alerts to use the notification component.</li>
+<li>Renamed "Standard" module to "Noise Impact Module".</li>
+<li>Added calculation of electric power in Acventum tiers in default mode.</li>
+<li>Modified input data method to separate the return of input data dictionary and error messages.</li>
+<li>Added heuristic curtailment algorithm and integrated it with noise impact calculation (using both models).</li>
+<li>Activated the curtailment algorithm option in the Noise Impact module when using the Acventum tiers model.</li>
+<li>Removed the option to set noise compliance rules for each receiver. Now, rules apply to all receivers globally.</li>
+<li>Updated Acventum tiers model to take into account compliance threshold defined in input data.</li>
+<li>Fixed CSV and Excel export for Acventum global simulation with the new curtailment algorithm.</li>
+<li>Fixed CSV export for Acventum tiers and Noise Impact module.</li>
+<li>Fixed Excel export for Noise Impact and Acventum tiers models.</li>
+<li>Added formatting in the contribution tab for Excel exports.</li>
+<li>Fixed an error in noise impact views where sources with identical names were missing in the recap table when "by source" option was active.</li>
+</ul>
+<h4 id="wind-direction-analysis-wda-updates">Wind Direction Analysis (WDA) Updates:</h4>
+<ul>
+<li>Changed calculation history for WDA module using Acventum global and Acventum tiers.</li>
+<li>Updated simulation info to include the use of the curtailment algorithm in calculations.</li>
+<li>Changed usage of <code>dcc.Store</code> for project ID and simulation ID in WDA module using Acventum global.</li>
+<li>Updated duplicate simulation module to allow users to change the name and acoustic model selected. Also improved modal UI.</li>
+<li>Updated open, create, rename, duplicate, and delete simulation modal to use new UI components.</li>
+<li>Updated import modeling points modal to use the new UI.</li>
+<li>Changed alerts in WDA module to use notification components (for both models).</li>
+<li>Integrated the new curtailment solver with WDA calculation in the backend.</li>
+<li>Fixed error on notification trigger when backend server is down and user attempts to run a calculation.</li>
+</ul>
+<h4 id="eolyse-module-updates">Eolyse Module Updates:</h4>
+<ul>
+<li>Integrated tiers octave model in the Background Noise Sensitivity module.</li>
+<li>Fixed errors in the Map module.</li>
+<li>Fixed an issue in the Elevation module where calculations could not run without input data in the Noise Impact module.</li>
+<li>Fixed project simulation mistakes on module availability.</li>
+<li>Fixed an issue where new simulations in the Noise Impact module did not have a default wind direction value, causing an error in the wind direction multi-select.</li>
+<li>Fixed Eolyse - Acventum tiers - Noise Impact / Background Noise Sensitivity - Run calculation now returns an error if operating modes are not generated.</li>
+<li>Fixed Eolyse - Acventum global - Noise Impact - Run calculation without selecting wind direction now returns a user-friendly error.</li>
+<li>Removed check on source ID starting with "S" in Acventum tiers.</li>
+<li>Updated curtailment section text to make it clearer.</li>
+<li>Updated stored data to be compressed using zlib.</li>
+<li>Updated Acventum tiers backend to reduce the number of Maps Elevation API calls.</li>
+</ul>
+<hr />
+<hr />
 <h2 id="october-2024">October 2024</h2>
 <h3 id="version-133">Version 1.3.3</h3>
 <h4 id="acmonitor-connect">Acmonitor Connect :</h4>
@@ -337,7 +424,7 @@ visually indicating operational conditions.</li>
 <hr />
 <h2 id="february-2024">February 2024</h2>
 <h3 id="version-128">Version 1.2.8</h3>
-<h4 id="general-updates">General Updates:</h4>
+<h4 id="general-updates_1">General Updates:</h4>
 <ul>
 <li>Upgraded database architecture for enhanced performance.</li>
 <li>Refined SQL connection protocols to align with the new database structure.</li>
