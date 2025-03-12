@@ -5,6 +5,77 @@ have been added to CloudB over the course of the year.
 
 ---
 
+## March 2025
+
+### Version 1.4.0 - 1.4.3
+
+#### General Updates:
+- Changed simulation module selection to be included in the settings menu option.
+- Updated settings menu option component.
+- Added the module name in the title with project and simulation for clarity.
+- Created a new module "Map" and removed the map layout from the other simulation modules.
+- Renamed the "Standard" module to "Classic Noise Impact" (CNI).
+- Fixed the custom operating modes generation in CNI using Acventum tiers model.
+- Removed custom operating modes generation for WDA using Acventum tiers model.
+- Fixed backend Acventum tiers run method to actually use Acventum tier model.
+- Changed simulation creation name to allow letters, numbers, spaces, hyphens (-), and underscores (_).
+- Updated usage of dcc.Store to cache `simulation_id` and `project_id`. Now, information is cached in the Redis session server-side.
+- Improved function simplicity and layout in the creation of sources and receivers accordion callback.
+- Added a lock on the simulation layout when no simulation is selected.
+- Updated simulation and project title in the header to include the acoustic model in use and simulation module.
+- Locked simulation module in settings menu when no simulation is active.
+- Fixed wind turbine perimeter calculation.
+- Added the items (sources and receivers) IDs in the accordion.
+
+#### Noise Impact Module Updates:
+- Updated calculation history to include more information about the last calculation.
+- Removed project and simulation ID storage in `dcc.Store` and moved it to server-side cache (Redis) for the Noise Impact module.
+- Changed attenuation chart "Adetail" to display in stack mode instead of group mode.
+- Updated backend endpoint to work with both model names: "Acventum global" and "Acventum tiers".
+- Changed attenuation tab layout to generate chart radio item options on page creation.
+- Changed compliance threshold limits for the Noise Impact module (both models). Now allows setting ambient noise in range 0-100 dB and noise impact in range 0-35 dB.
+- Updated noise impact alerts to use the notification component.
+- Renamed "Standard" module to "Noise Impact Module".
+- Added calculation of electric power in Acventum tiers in default mode.
+- Modified input data method to separate the return of input data dictionary and error messages.
+- Added heuristic curtailment algorithm and integrated it with noise impact calculation (using both models).
+- Activated the curtailment algorithm option in the Noise Impact module when using the Acventum tiers model.
+- Removed the option to set noise compliance rules for each receiver. Now, rules apply to all receivers globally.
+- Updated Acventum tiers model to take into account compliance threshold defined in input data.
+- Fixed CSV and Excel export for Acventum global simulation with the new curtailment algorithm.
+- Fixed CSV export for Acventum tiers and Noise Impact module.
+- Fixed Excel export for Noise Impact and Acventum tiers models.
+- Added formatting in the contribution tab for Excel exports.
+- Fixed an error in noise impact views where sources with identical names were missing in the recap table when "by source" option was active.
+
+#### Wind Direction Analysis (WDA) Updates:
+- Changed calculation history for WDA module using Acventum global and Acventum tiers.
+- Updated simulation info to include the use of the curtailment algorithm in calculations.
+- Changed usage of `dcc.Store` for project ID and simulation ID in WDA module using Acventum global.
+- Updated duplicate simulation module to allow users to change the name and acoustic model selected. Also improved modal UI.
+- Updated open, create, rename, duplicate, and delete simulation modal to use new UI components.
+- Updated import modeling points modal to use the new UI.
+- Changed alerts in WDA module to use notification components (for both models).
+- Integrated the new curtailment solver with WDA calculation in the backend.
+- Fixed error on notification trigger when backend server is down and user attempts to run a calculation.
+
+#### Eolyse Module Updates:
+- Integrated tiers octave model in the Background Noise Sensitivity module.
+- Fixed errors in the Map module.
+- Fixed an issue in the Elevation module where calculations could not run without input data in the Noise Impact module.
+- Fixed project simulation mistakes on module availability.
+- Fixed an issue where new simulations in the Noise Impact module did not have a default wind direction value, causing an error in the wind direction multi-select.
+- Fixed Eolyse - Acventum tiers - Noise Impact / Background Noise Sensitivity - Run calculation now returns an error if operating modes are not generated.
+- Fixed Eolyse - Acventum global - Noise Impact - Run calculation without selecting wind direction now returns a user-friendly error.
+- Removed check on source ID starting with "S" in Acventum tiers.
+- Updated curtailment section text to make it clearer.
+- Updated stored data to be compressed using zlib.
+- Updated Acventum tiers backend to reduce the number of Maps Elevation API calls.
+
+---
+
+---
+
 ## October 2024
 
 ### Version 1.3.3

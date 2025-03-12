@@ -3,7 +3,9 @@ nav:
   - 'index.md'
   - 'introduction.md'
   - 'getting-started.md'
-  - 'workspaces.md'
+  - 'eolyse.md'
+  - 'acmonitor-connect.md'
+  - 'toolbox.md'
   - 'troubleshooting.md'
   - 'release-note.md'
 theme:
